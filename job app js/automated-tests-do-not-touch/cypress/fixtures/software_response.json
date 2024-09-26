@@ -1,0 +1,62 @@
+[
+    {
+        "id": 7,
+        "title": "Software Development Manager",
+        "date_posted": "2024-04-13",
+        "company": "TechLeaders Inc.",
+        "job_type": "Full-time",
+        "location": "San Jose, CA",
+        "description": "Join our leadership team as a Software Development Manager and oversee the delivery of high-quality software products.",
+        "qualifications": "Excellent communication and leadership skills"
+    },
+    {
+        "id": 10,
+        "title": "Senior Software Engineer",
+        "date_posted": "2024-05-08",
+        "company": "InnovateTech",
+        "job_type": "Full-time",
+        "location": "San Francisco, CA",
+        "description": "Join our dynamic team as a Senior Software Engineer. You will be responsible for designing and implementing scalable software solutions for our cutting-edge products.",
+        "qualifications": "Strong problem-solving and communication skills"
+    },
+    {
+        "id": 16,
+        "title": "DevOps Engineer",
+        "date_posted": "2024-05-02",
+        "company": "DevOps Solutions Co.",
+        "job_type": "Full-time",
+        "location": "Austin, TX",
+        "description": "Join our DevOps team and help streamline our software development and deployment processes through automation and continuous integration.",
+        "qualifications": "Knowledge of containerization technologies such as Docker and Kubernetes"
+    },
+    {
+        "id": 21,
+        "title": "Quality Assurance Analyst",
+        "date_posted": "2024-04-26",
+        "company": "QualityTech Inc.",
+        "job_type": "Full-time",
+        "location": "Seattle, WA",
+        "description": "We're seeking a detail-oriented Quality Assurance Analyst to ensure the quality and reliability of our software products.",
+        "qualifications": "Excellent documentation and communication skills"
+    },
+    {
+        "id": 25,
+        "title": "Software Test Automation Engineer",
+        "date_posted": "2024-04-22",
+        "company": "AutoTest Solutions",
+        "job_type": "Full-time",
+        "location": "Chicago, IL",
+        "description": "We're seeking a Software Test Automation Engineer to design and implement automated test scripts for our software products.",
+        "qualifications": "Strong problem-solving and debugging skills"
+    },
+    {
+        "id": 34,
+        "title": "Software Development Manager",
+        "date_posted": "2024-04-13",
+        "company": "TechLeaders Inc.",
+        "job_type": "Full-time",
+        "location": "San Jose, CA",
+        "description": "Join our leadership team as a Software Development Manager and oversee the delivery of high-quality software products.",
+        "qualifications": "Excellent communication and leadership skills"
+    }
+]

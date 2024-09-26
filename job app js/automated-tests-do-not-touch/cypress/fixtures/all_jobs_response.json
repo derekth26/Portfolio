@@ -1,0 +1,362 @@
+[
+    {
+        "id": 1,
+        "title": "Database Administrator",
+        "date_posted": "2024-04-19",
+        "company": "DataTech Enterprises",
+        "job_type": "Full-time",
+        "location": "Seattle, WA",
+        "description": "We're seeking a skilled Database Administrator to manage and optimize our organization's databases for performance and reliability.",
+        "qualifications": "Strong problem-solving and troubleshooting skills"
+    },
+    {
+        "id": 2,
+        "title": "AI Product Manager",
+        "date_posted": "2024-04-18",
+        "company": "AI Innovations Ltd.",
+        "job_type": "Full-time",
+        "location": "San Francisco, CA",
+        "description": "We're looking for an experienced AI Product Manager to drive the development and commercialization of our AI-based products.",
+        "qualifications": "Excellent communication and leadership skills"
+    },
+    {
+        "id": 3,
+        "title": "IT Project Manager",
+        "date_posted": "2024-04-17",
+        "company": "TechProjects Inc.",
+        "job_type": "Full-time",
+        "location": "New York, NY",
+        "description": "Join our team as an IT Project Manager and lead the planning, execution, and delivery of IT projects within scope, budget, and schedule.",
+        "qualifications": "Strong leadership and stakeholder management skills"
+    },
+    {
+        "id": 4,
+        "title": "Cloud Security Engineer",
+        "date_posted": "2024-04-16",
+        "company": "SecureCloud Solutions",
+        "job_type": "Full-time",
+        "location": "Austin, TX",
+        "description": "We're seeking a Cloud Security Engineer to design, implement, and monitor security measures for our cloud-based infrastructure.",
+        "qualifications": "Strong understanding of networking and encryption protocols"
+    },
+    {
+        "id": 5,
+        "title": "Machine Learning Engineer",
+        "date_posted": "2024-04-15",
+        "company": "MLTech Innovations",
+        "job_type": "Full-time",
+        "location": "Boston, MA",
+        "description": "Join our machine learning team and work on innovative projects to develop and deploy machine learning models for various applications.",
+        "qualifications": "Strong problem-solving and algorithmic skills"
+    },
+    {
+        "id": 6,
+        "title": "UX/UI Developer",
+        "date_posted": "2024-04-14",
+        "company": "DesignTech Innovations",
+        "job_type": "Full-time",
+        "location": "Los Angeles, CA",
+        "description": "We're looking for a talented UX/UI Developer to design and implement engaging user interfaces for our web and mobile applications.",
+        "qualifications": "Strong understanding of UX/UI design principles"
+    },
+    {
+        "id": 7,
+        "title": "Software Development Manager",
+        "date_posted": "2024-04-13",
+        "company": "TechLeaders Inc.",
+        "job_type": "Full-time",
+        "location": "San Jose, CA",
+        "description": "Join our leadership team as a Software Development Manager and oversee the delivery of high-quality software products.",
+        "qualifications": "Excellent communication and leadership skills"
+    },
+    {
+        "id": 8,
+        "title": "Data Engineer",
+        "date_posted": "2024-04-12",
+        "company": "DataWorks Solutions",
+        "job_type": "Full-time",
+        "location": "Chicago, IL",
+        "description": "We're seeking a Data Engineer to design, build, and maintain scalable data pipelines and data warehouses.",
+        "qualifications": "Strong problem-solving and analytical skills"
+    },
+    {
+        "id": 9,
+        "title": "IT Business Analyst",
+        "date_posted": "2024-04-11",
+        "company": "TechAnalysis Inc.",
+        "job_type": "Full-time",
+        "location": "Washington, D.C.",
+        "description": "Join our team as an IT Business Analyst and bridge the gap between business needs and IT solutions.",
+        "qualifications": "Knowledge of Agile methodologies is a plus"
+    },
+    {
+        "id": 10,
+        "title": "Senior Software Engineer",
+        "date_posted": "2024-05-08",
+        "company": "InnovateTech",
+        "job_type": "Full-time",
+        "location": "San Francisco, CA",
+        "description": "Join our dynamic team as a Senior Software Engineer. You will be responsible for designing and implementing scalable software solutions for our cutting-edge products.",
+        "qualifications": "Strong problem-solving and communication skills"
+    },
+    {
+        "id": 11,
+        "title": "Data Scientist",
+        "date_posted": "2024-05-07",
+        "company": "DataTech Solutions",
+        "job_type": "Contract",
+        "location": "New York, NY",
+        "description": "We're seeking a talented Data Scientist to analyze complex datasets and provide valuable insights to drive business decisions.",
+        "qualifications": "Strong statistical and analytical skills"
+    },
+    {
+        "id": 12,
+        "title": "Frontend Developer",
+        "date_posted": "2024-05-06",
+        "company": "WebSolutions Inc.",
+        "job_type": "Remote",
+        "location": "Anywhere",
+        "description": "Join our team as a Frontend Developer and contribute to the development of user-friendly web applications.",
+        "qualifications": "Good understanding of responsive design principles"
+    },
+    {
+        "id": 13,
+        "title": "Cybersecurity Analyst",
+        "date_posted": "2024-05-05",
+        "company": "SecureTech Solutions",
+        "job_type": "Full-time",
+        "location": "Washington, D.C.",
+        "description": "We're looking for a Cybersecurity Analyst to identify and mitigate security threats to our organization's IT infrastructure.",
+        "qualifications": "Strong analytical and problem-solving skills"
+    },
+    {
+        "id": 14,
+        "title": "AI/ML Engineer",
+        "date_posted": "2024-05-04",
+        "company": "AI Innovations Ltd.",
+        "job_type": "Full-time",
+        "location": "Boston, MA",
+        "description": "Join our AI team and work on cutting-edge machine learning projects to drive innovation in various industries.",
+        "qualifications": "Strong problem-solving and collaborative skills"
+    },
+    {
+        "id": 15,
+        "title": "Cloud Solutions Architect",
+        "date_posted": "2024-05-03",
+        "company": "CloudWorks Inc.",
+        "job_type": "Full-time",
+        "location": "Seattle, WA",
+        "description": "We're seeking a Cloud Solutions Architect to design and implement scalable and secure cloud solutions for our clients.",
+        "qualifications": "Strong communication and client-facing skills"
+    },
+    {
+        "id": 16,
+        "title": "DevOps Engineer",
+        "date_posted": "2024-05-02",
+        "company": "DevOps Solutions Co.",
+        "job_type": "Full-time",
+        "location": "Austin, TX",
+        "description": "Join our DevOps team and help streamline our software development and deployment processes through automation and continuous integration.",
+        "qualifications": "Knowledge of containerization technologies such as Docker and Kubernetes"
+    },
+    {
+        "id": 17,
+        "title": "UI/UX Designer",
+        "date_posted": "2024-05-01",
+        "company": "DesignTech Studios",
+        "job_type": "Full-time",
+        "location": "Los Angeles, CA",
+        "description": "We're looking for a talented UI/UX Designer to create intuitive and visually appealing user interfaces for our web and mobile applications.",
+        "qualifications": "Excellent communication and collaboration skills"
+    },
+    {
+        "id": 18,
+        "title": "Backend Developer",
+        "date_posted": "2024-04-30",
+        "company": "Backend Solutions Co.",
+        "job_type": "Full-time",
+        "location": "Chicago, IL",
+        "description": "Join our backend development team and contribute to the design and implementation of scalable and efficient server-side applications.",
+        "qualifications": "Strong problem-solving and debugging skills"
+    },
+    {
+        "id": 19,
+        "title": "Product Manager",
+        "date_posted": "2024-04-28",
+        "company": "ProductifyTech",
+        "job_type": "Full-time",
+        "location": "San Jose, CA",
+        "description": "We're looking for a skilled Product Manager to lead the development and execution of our product roadmap.",
+        "qualifications": "Experience with Agile methodologies"
+    },
+    {
+        "id": 20,
+        "title": "Network Engineer",
+        "date_posted": "2024-04-27",
+        "company": "NetWorks Solutions",
+        "job_type": "Contract",
+        "location": "Dallas, TX",
+        "description": "Join our network engineering team and play a key role in designing, implementing, and maintaining our network infrastructure.",
+        "qualifications": "Excellent troubleshooting skills"
+    },
+    {
+        "id": 21,
+        "title": "Quality Assurance Analyst",
+        "date_posted": "2024-04-26",
+        "company": "QualityTech Inc.",
+        "job_type": "Full-time",
+        "location": "Seattle, WA",
+        "description": "We're seeking a detail-oriented Quality Assurance Analyst to ensure the quality and reliability of our software products.",
+        "qualifications": "Excellent documentation and communication skills"
+    },
+    {
+        "id": 22,
+        "title": "Blockchain Developer",
+        "date_posted": "2024-04-25",
+        "company": "BlockTech Innovations",
+        "job_type": "Full-time",
+        "location": "San Francisco, CA",
+        "description": "Join our blockchain development team and work on innovative projects leveraging blockchain technology.",
+        "qualifications": "Strong problem-solving and cryptography skills"
+    },
+    {
+        "id": 23,
+        "title": "Systems Administrator",
+        "date_posted": "2024-04-24",
+        "company": "SysAdmin Solutions",
+        "job_type": "Full-time",
+        "location": "Austin, TX",
+        "description": "We're looking for a Systems Administrator to maintain and optimize our organization's IT infrastructure.",
+        "qualifications": "Strong troubleshooting and problem-solving skills"
+    },
+    {
+        "id": 24,
+        "title": "UX Researcher",
+        "date_posted": "2024-04-23",
+        "company": "UserExperience Labs",
+        "job_type": "Full-time",
+        "location": "New York, NY",
+        "description": "Join our UX research team and conduct user research to inform product design and development decisions.",
+        "qualifications": "Excellent analytical and communication skills"
+    },
+    {
+        "id": 25,
+        "title": "Software Test Automation Engineer",
+        "date_posted": "2024-04-22",
+        "company": "AutoTest Solutions",
+        "job_type": "Full-time",
+        "location": "Chicago, IL",
+        "description": "We're seeking a Software Test Automation Engineer to design and implement automated test scripts for our software products.",
+        "qualifications": "Strong problem-solving and debugging skills"
+    },
+    {
+        "id": 26,
+        "title": "IT Security Analyst",
+        "date_posted": "2024-04-21",
+        "company": "SecureIT Solutions",
+        "job_type": "Full-time",
+        "location": "Washington, D.C.",
+        "description": "Join our IT security team and assist in the implementation and maintenance of security measures to protect our organization's data and systems.",
+        "qualifications": "Certifications such as CISSP or CompTIA Security+ are a plus"
+    },
+    {
+        "id": 27,
+        "title": "AI Ethics Researcher",
+        "date_posted": "2024-04-20",
+        "company": "EthicalAI Foundation",
+        "job_type": "Full-time",
+        "location": "Boston, MA",
+        "description": "We're looking for an AI Ethics Researcher to explore ethical implications of AI technologies and develop frameworks for responsible AI development and deployment.",
+        "qualifications": "Ability to communicate complex ideas effectively"
+    },
+    {
+        "id": 28,
+        "title": "Database Administrator",
+        "date_posted": "2024-04-19",
+        "company": "DataTech Enterprises",
+        "job_type": "Full-time",
+        "location": "Seattle, WA",
+        "description": "We're seeking a skilled Database Administrator to manage and optimize our organization's databases for performance and reliability.",
+        "qualifications": "Strong problem-solving and troubleshooting skills"
+    },
+    {
+        "id": 29,
+        "title": "AI Product Manager",
+        "date_posted": "2024-04-18",
+        "company": "AI Innovations Ltd.",
+        "job_type": "Full-time",
+        "location": "San Francisco, CA",
+        "description": "We're looking for an experienced AI Product Manager to drive the development and commercialization of our AI-based products.",
+        "qualifications": "Excellent communication and leadership skills"
+    },
+    {
+        "id": 30,
+        "title": "IT Project Manager",
+        "date_posted": "2024-04-17",
+        "company": "TechProjects Inc.",
+        "job_type": "Full-time",
+        "location": "New York, NY",
+        "description": "Join our team as an IT Project Manager and lead the planning, execution, and delivery of IT projects within scope, budget, and schedule.",
+        "qualifications": "Strong leadership and stakeholder management skills"
+    },
+    {
+        "id": 31,
+        "title": "Cloud Security Engineer",
+        "date_posted": "2024-04-16",
+        "company": "SecureCloud Solutions",
+        "job_type": "Full-time",
+        "location": "Austin, TX",
+        "description": "We're seeking a Cloud Security Engineer to design, implement, and monitor security measures for our cloud-based infrastructure.",
+        "qualifications": "Strong understanding of networking and encryption protocols"
+    },
+    {
+        "id": 32,
+        "title": "Machine Learning Engineer",
+        "date_posted": "2024-04-15",
+        "company": "MLTech Innovations",
+        "job_type": "Full-time",
+        "location": "Boston, MA",
+        "description": "Join our machine learning team and work on innovative projects to develop and deploy machine learning models for various applications.",
+        "qualifications": "Strong problem-solving and algorithmic skills"
+    },
+    {
+        "id": 33,
+        "title": "UX/UI Developer",
+        "date_posted": "2024-04-14",
+        "company": "DesignTech Innovations",
+        "job_type": "Full-time",
+        "location": "Los Angeles, CA",
+        "description": "We're looking for a talented UX/UI Developer to design and implement engaging user interfaces for our web and mobile applications.",
+        "qualifications": "Strong understanding of UX/UI design principles"
+    },
+    {
+        "id": 34,
+        "title": "Software Development Manager",
+        "date_posted": "2024-04-13",
+        "company": "TechLeaders Inc.",
+        "job_type": "Full-time",
+        "location": "San Jose, CA",
+        "description": "Join our leadership team as a Software Development Manager and oversee the delivery of high-quality software products.",
+        "qualifications": "Excellent communication and leadership skills"
+    },
+    {
+        "id": 35,
+        "title": "Data Engineer",
+        "date_posted": "2024-04-12",
+        "company": "DataWorks Solutions",
+        "job_type": "Full-time",
+        "location": "Chicago, IL",
+        "description": "We're seeking a Data Engineer to design, build, and maintain scalable data pipelines and data warehouses.",
+        "qualifications": "Strong problem-solving and analytical skills"
+    },
+    {
+        "id": 36,
+        "title": "IT Business Analyst",
+        "date_posted": "2024-04-11",
+        "company": "TechAnalysis Inc.",
+        "job_type": "Full-time",
+        "location": "Washington, D.C.",
+        "description": "Join our team as an IT Business Analyst and bridge the gap between business needs and IT solutions.",
+        "qualifications": "Knowledge of Agile methodologies is a plus"
+    }
+]

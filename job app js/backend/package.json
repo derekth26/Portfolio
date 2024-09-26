@@ -1,0 +1,23 @@
+{
+  "name": "job-search-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "node backend-express-server.mjs",
+    "navigate-db": "npx prisma studio",
+    "populate-db": "node seedDatabase.mjs"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^5.13.0",
+    "cors": "^2.8.5",
+    "express": "^4.21.0",
+    "fs": "^0.0.1-security"
+  },
+  "devDependencies": {
+    "prisma": "^5.13.0",
+    "sqlite3": "^5.1.7"
+  }
+}

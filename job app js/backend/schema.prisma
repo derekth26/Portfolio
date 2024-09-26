@@ -1,0 +1,27 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = "file:./dev.db"
+}
+
+model Job {
+  id            Int      @id @default(autoincrement())
+  title         String
+  date_posted   String
+  company       String
+  job_type      String
+  location      String
+  description   String
+  qualifications String
+  savedJobs SavedJob[] // this is referencing the SavedJob table
+}
+
+model SavedJob {
+  id        Int     @id @default(autoincrement())
+  jobId     Int     // Foreign key referencing the ID of the Job model
+  job       Job     @relation(fields: [jobId], references: [id]) // Define the relationship with the Job model
+  createdAt DateTime @default(now()) // Optional: Include a createdAt timestamp
+}
