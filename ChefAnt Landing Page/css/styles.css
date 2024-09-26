@@ -1,0 +1,806 @@
+
+
+/* Hide the navigation menu off-screen by default */
+.menu__box {
+    position: fixed;
+    top: -250%; /* Hide it above the viewport */
+    right: 200px;
+    width: 100%;
+    transition: top 0.1s ease-in-out !important;
+    z-index: -1;
+}
+
+
+/* Default styles for the menu button */
+.menu__btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    position: relative;
+    margin-top: 1.3rem;
+}
+
+/* Hamburger lines */
+.menu__btn > span,
+.menu__btn > span::before,
+.menu__btn > span::after {
+    display: block;
+    position: absolute;
+    width: 30px;
+    height: 3px;
+    background-color: #FEA5A5;
+    transition: transform 0.3s ease, top 0.25s ease; /* Smooth transformation */
+    content: "";
+}
+
+.menu__btn > span::before {
+    top: -8px;
+}
+
+.menu__btn > span::after {
+    top: 8px;
+}
+
+/* When the checkbox is checked, rotate the hamburger into an X */
+#menu__toggle:checked + .menu__btn > span {
+    transform: rotate(-45deg);
+}
+
+#menu__toggle:checked + .menu__btn > span::before {
+    top: 0;
+    transform: rotate(-90deg);
+}
+
+#menu__toggle:checked + .menu__btn > span::after {
+    top: 0;
+    transform: rotate(-90deg);
+}
+
+#menu__toggle {
+    position:absolute; /* Remove from document flow */
+    opacity: 0; /* Make it invisible */
+    width: 0; /* Ensure it takes up no space */
+    height: 0; /* Ensure it takes up no space */
+    z-index: 1;
+}
+
+.show-nav{
+    position: absolute;
+    background-color: #ffffff;
+    text-align: center;
+    width: 100%;
+    left: 0;
+    top: 100%;
+       
+
+}
+
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+
+
+.show-nav a:hover{
+    color: #D97070;
+}
+
+nav li{
+    padding: 1rem;
+} 
+main{
+    font-family: "Kreon", serif;
+    font-size: 1.2rem;
+    margin-top: 6rem;
+
+}
+h2, h3, h4, h6 {
+    font-family: "Koulen", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1 a{
+    font-family: "Italianno", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3.5rem;
+    
+}
+
+h1 a:hover{
+    color: #D97070;
+}
+
+header{
+    background-color: white;
+    position: fixed;
+    font-family: "Kreon", serif;
+    font-size: 1.2rem;
+    width: 100%;
+    padding: 1rem;
+    top: 0;
+    z-index: 1000;
+    
+    
+    
+
+}
+
+
+
+header a{
+    color: #FEA5A5;
+    text-decoration: none;
+    
+}
+
+header svg{
+    fill: white;
+    width: 50px;
+
+
+}
+header rect{
+    height: 15px;
+    width: 100%;
+}
+
+
+.banner{
+    background-image: url("../img/banner.jpg");
+    background-size: cover;
+    background-position: center; /* Centers the background image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    max-width: 100%;
+    margin-top: -2rem;
+    
+    
+    
+    
+    
+}
+.welcome{
+    padding: 100px;
+    text-align: center;
+
+}
+
+.welcome h2{
+    
+        font-family: "Koulen", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 3rem;
+        margin-top: 1rem;
+        margin: auto;
+      
+}
+.welcome p{
+    margin-bottom: 2rem;
+
+}
+
+.welcome span{
+
+    font-family: "Italianno", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color:#ffffff;
+    font-size: 4.5rem;
+    
+    
+}
+
+.welcome a{
+    background-color: #ffffff;
+    color: #FEA5A5;
+    text-decoration: none;
+    border-radius: 1rem;
+    padding: .8rem;
+    font-family: "Kreon", serif;
+    
+    
+}
+
+
+.banner a:hover{
+    background-color: #FEA5A5;
+    color: #ffffff;
+    border: 3px solid #FEA5A5;
+}
+.whatcanyouexpect h3{
+    text-align: center;
+    margin-top: 7rem;
+    margin-bottom: 5rem;
+    font-size: 2.5rem;
+    
+}
+
+.whatyoucanexpect .container{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.whatcanyouexpect p{
+    margin-top: 1rem;
+}
+.whatcanyouexpect a{
+    text-decoration: none;
+    color: #FEA5A5;
+    font-size: 1.5rem;
+    
+    
+}
+
+.whatcanyouexpect a:last-child{
+    background-color: #FEA5A5;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 1rem;
+    padding: .5rem;
+    font-family: "Kreon", serif;
+    display: block;
+    text-align: center;
+    border: 2px solid transparent;
+    width: 50%;
+    margin: auto;
+    z-index: 10; 
+    position: relative; 
+    display: block; 
+    padding: .5rem 2rem; 
+    width: fit-content; 
+    text-align: center; 
+    
+    
+   
+    
+    
+}
+
+.whatcanyouexpect a:last-child:hover{
+
+    background-color: #ffffff;
+    color: #FEA5A5;
+    border: 2px solid #FEA5A5;
+    
+    
+    
+   
+}
+
+
+
+.whatcanyouexpect a:hover{
+
+    color: #D97070;
+}
+.featuredrecipes, .recipecategories, .trendingfavourites, .seasonalspecials{
+    border-bottom: 3px solid black;
+    padding-bottom: 1.5rem;
+    margin-bottom: 2rem;
+    
+
+}
+
+.zoom {
+    position: relative;
+    overflow: hidden; 
+    display: inline-block; 
+    width: 100%; 
+    height: 100%; 
+}
+
+.zoom img {
+    transition-duration: 0.5s !important;
+    border:1px solid #000;
+    
+   
+}
+.zoom img:hover {
+    transform: scale(1.2);
+    z-index: 0;
+    
+}
+
+
+
+.quiz{
+    background-color: #FEA5A5;
+    color: #ffffff;
+    text-align: left;
+    padding: 4rem;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+
+.quiz h3{
+    font-size:2.2rem;
+    margin-bottom: 2rem;
+}
+
+input[type="submit"]{
+
+    padding-right: 2rem;
+    padding-left: 2rem;
+    background-color: #ffffff;
+    color: #FEA5A5;
+    text-decoration: none;
+    border-radius: 1rem;
+    padding: .5rem;
+    font-family: "Kreon", serif;
+    margin-top: 2rem;
+    
+}
+
+input[type="submit"]:hover{
+
+    background-color: #FEA5A5;
+    color: #ffffff;
+    border: 2px solid white;
+
+
+}
+.meetanthony p{
+    font-family: "Kreon", serif;
+    margin-bottom: 2rem;
+}
+.meetanthony h3{
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.meetanthony h4{
+    font-size: 2rem;
+    text-align: center;
+}
+.meetanthony span{
+    font-family: "Italianno", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3.5rem;
+}
+
+.social{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10rem;
+}
+
+.newsletter h3{
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    
+}
+
+.newsletter a{
+
+    
+    background-color: #FEA5A5;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 1rem;
+    font-family: "Kreon", serif;
+    border-color: #ffffff;
+    margin-top: 3rem;
+    justify-content: center;
+    border: 2px solid transparent;
+    font-size: 1.5rem;
+    margin-bottom: 10rem;
+    width: 50%;
+    margin: auto;
+    margin-top: 4rem;
+    margin-bottom: 8rem;
+    z-index: 10; 
+    position: relative; 
+    display: block; 
+    margin-top: 1rem; 
+    padding: .5rem 2rem; 
+    width: fit-content; 
+    text-align: center; 
+    
+
+
+}
+
+.newsletter a:hover{
+
+    background-color: #ffffff;
+    color: #FEA5A5;
+    border: 2px solid #FEA5A5;
+
+}
+
+.review h3{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: .3rem;
+}
+
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+#cCarousel {
+  position: relative;
+  max-width: 900px;
+  margin: auto;
+}
+
+#cCarousel .arrow {
+  position: absolute;
+  top: 50%;
+  display: flex;
+  width: 45px;
+  height: 45px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  z-index: 1;
+  font-size: 26px;
+  color: white;
+  background: #00000072;
+  cursor: pointer;
+}
+
+#cCarousel #prev {
+  left: 0px;
+}
+
+#cCarousel #next {
+  right: 0px;
+}
+
+#carousel-vp {
+  width: 770px;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  margin: auto;
+}
+
+#cCarousel #cCarousel-inner {
+  display: flex;
+  position: absolute;
+  transition: left 0.3s ease-in-out !important;
+  gap: 10px;
+  left: 0px;
+}
+
+.cCarousel-item {
+  width: 250px;
+  height: 365px;
+  border: 2px solid white;
+  border-radius: 15px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.cCarousel-item img {
+  width: 100%;
+  object-fit: cover;
+  min-height: 246px;
+  color: white;
+}
+
+.cCarousel-item .infos {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background: white;
+  color: black;
+}
+
+.cCarousel-item .infos button {
+  background: #FEA5A5;
+  padding: 10px 30px;
+  border-radius: 15px;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  border: 2px solid transparent;
+}
+
+.cCarousel-item .infos button:hover{
+
+    background-color: white;
+    color: #FEA5A5;
+    border: 2px solid #FEA5A5;
+}
+
+.site-footer{
+    background-color: #FEA5A5;
+    margin-top: 10rem;
+    color: #ffffff;
+    padding: 3rem;
+
+}
+
+.site-footer h1{
+
+    font-family: "Italianno", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 4rem;
+
+}
+
+.site-footer p{
+
+    font-family: "Kreon", serif;
+    font-size: 1.2rem;
+
+}
+
+.site-footer h6{
+    font-size: 1.8rem;
+    
+}
+
+.site-footer .footer-links a{
+
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.2rem;
+    padding: .3rem;
+
+}
+.site-footer h1 a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.site-footer .footer-links a:hover{
+
+    color: #D97070;
+    border-radius: 1rem;
+   
+}
+
+
+
+  
+@media (max-width: 770px) {
+    #carousel-vp {
+      width: 510px;
+    }
+  }
+  
+  @media (max-width: 510px) {
+    #carousel-vp {
+      width: 250px;
+    }
+  }
+
+  @media (min-width: 990px) {
+
+    header{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .menu__box {
+        position: static; /* Remove positioning to align with other elements */
+        top: auto; /* Reset top positioning */
+        display: block; /* Ensure the menu box is displayed */
+        
+        
+    }
+
+    .menu__btn {
+        display: none; /* Hide the menu button */
+    }
+
+    nav ul {
+        display: flex; /* Ensure nav items are displayed in a row */
+        
+    }
+   
+
+    .show-nav {
+        position: static; /* Align with normal flow */
+        width: auto; /* Adjust width as needed */
+    }
+    
+    nav a:hover{
+        color: #D97070;
+    
+    }
+
+    .welcome p{
+        
+        max-width: 700px;
+        margin: auto;
+        height: 100px;
+        
+    }
+
+    .banner:hover{
+    
+        background-size: 120%; 
+        
+    }
+
+    .welcome h2{
+        font-size: 5rem;
+        margin-top: 6rem;
+
+    }
+    .welcome span{
+        font-size: 9rem;
+    }
+    .welcome p{
+        font-size: 1.2rem;     
+        margin-bottom: 3rem;
+    }
+
+    .whatcanyouexpect h3{
+        font-size: 3rem;
+    }
+
+    .welcome a{
+        font-size: 2rem;
+    }
+
+    
+    .whatcanyouexpect .container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px; /* Adjust spacing between grid items */
+        
+    }
+
+    .whatcanyouexpect .container .featuredrecipes,
+    .whatcanyouexpect .container .recipecategories,
+    .whatcanyouexpect .container .trendingfavourites,
+    .whatcanyouexpect .container .seasonalspecials {
+        /* Make sure each section takes up one grid cell */
+        grid-column: span 1;
+        text-align: center;
+    }
+
+
+    .whatcanyouexpect .container img {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+        display: block;
+    }
+
+   
+
+    .whatcanyouexpect .container a {
+        display: block;
+        margin-top: 10px;
+    }
+
+
+    .quiz h3{
+        text-align: center;
+        margin-bottom: 3rem;
+        font-size: 3rem;
+    }
+
+    .quiz p, label{
+        font-size: 1.3rem;
+    }
+    
+
+    .quiz{
+        text-align: center;
+        padding-top: 15rem;
+        padding-bottom: 15rem;
+            
+        
+    }
+
+    .quiz label,input{
+        text-align: left;
+    }
+
+    .meetanthony h3{
+        font-size: 5rem;
+    }
+    .meetanthony span{
+        font-size: 6rem;
+    }
+    
+
+    .meetanthony h4{
+        margin-top: 5rem;
+        font-size: 3rem;
+    }
+    .meetanthony p{
+        text-align: center;
+    }
+
+    .newsletter h3{
+        font-size: 3rem;
+    }
+
+}
+
+@media (min-width:1200px) {
+
+    .menu li {
+        font-size: 1.5rem;
+    }
+
+    .welcome{
+        background-position: top;
+       
+    }
+
+    .welcome h2{
+        font-size: 6rem;
+    }
+
+    .welcome span{
+        font-size: 10rem;
+
+    }
+    .welcome a{
+        font-size: 2rem;
+        
+        
+    }
+
+    .welcome p{
+        
+        max-width: 700px;
+        margin: auto;
+        height: 100px;
+        
+    }
+
+    .whatcanyouexpect h3{
+        font-size: 3rem;
+
+    }
+    
+    .whatcanyouexpect .container img {
+        height: 400px;
+    }
+    .quiz h3{
+        font-size: 3.5rem;
+    }
+
+    .quiz p, label{
+        font-size: 1.5rem;
+    }
+    
+}
+
+
+
+  
+
+
+
+
+
+
+
