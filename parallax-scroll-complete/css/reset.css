@@ -1,0 +1,65 @@
+*, 
+*::before, 
+*::after { 
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  line-height: 1.5;
+  font-size: 100%;
+}
+
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+}
+
+body, h1, h2, h3, h4, p, figure, blockquote {
+  margin: 0;
+}
+
+img, picture {
+  max-width: 100%;
+  display: block;
+}
+
+ul:not([role="list"]) {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+/* If we have certain user settings, this makes animations play so quickly that we 
+   shouldn't perceive them (and prevents them from looping after). */
+@media (prefers-reduced-motion: reduce) {
+  *, 
+  *::before, 
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Utility Classes */
+/* These are classes that can be added to multiple elements and used over and over. We're 
+   putting them in the reset so that they can be easily overwritten in our custom styles. */
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* This one will be taught in Module 2. */
+
+/* .sr-only {
+  height: 1px;
+  left: -9999px;
+  overflow: hidden;
+  position: absolute;
+  top: -9999px;
+  width: 1px;
+} */

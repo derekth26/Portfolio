@@ -1,0 +1,292 @@
+:root {
+    --white: #feffff;
+    --black: #0e1621;
+    --blue: #26527b;
+}
+
+.inner-container {
+    margin: auto;
+    max-width: 40rem;
+}
+
+/* Typographic Styles */
+
+body {
+    background-color: var(--blue);
+    color: var(--white);
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+}
+
+h1, h2 {
+    font-family: 'Roboto Condensed', sans-serif;
+    line-height: 1;
+}
+
+h1 {
+    font-size: 3rem;
+    letter-spacing: 2px;
+    text-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+.intro p {
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+}
+
+/* Layout Styles */
+
+section,
+.scrim {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+section:not(.angle-bg),
+.scrim {
+    min-height: calc(100vh + 3rem);
+}
+
+.intro {
+    text-align: center;
+}
+
+
+/* Angled Background Styles */
+
+
+
+.angle-bg, .angle-bg2, .angle-bg3 {
+    position: relative;
+    z-index: 1;
+    padding: 4rem 1rem;
+}
+
+.angle-bg::before,
+.angle-bg::after,
+.angle-bg2::before,
+.angle-bg2::after,
+.angle-bg3::before,
+.angle-bg3::after {
+    content: "";
+    display: block;
+    height: 50%;
+    left: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+/* General Styles for angle-bg and its variants */
+.angle-bg, .angle-bg2, .angle-bg3, .angle-bg4, .angle-bg5, .angle-bg6, .angle-bg7 {
+    position: relative;
+    z-index: 1;
+    padding: 4rem 1rem;
+}
+
+/* Pseudo-elements for angled backgrounds */
+.angle-bg::before,
+.angle-bg::after,
+.angle-bg2::before,
+.angle-bg2::after,
+.angle-bg3::before,
+.angle-bg3::after,
+.angle-bg4::before,
+.angle-bg4::after,
+.angle-bg5::before,
+.angle-bg5::after,
+.angle-bg6::before,
+.angle-bg6::after,
+.angle-bg7::before,
+.angle-bg7::after {
+    content: "";
+    display: block;
+    height: 50%;
+    left: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+/* Styles for angle-bg (original) */
+.angle-bg {
+    background-color: var(--blue); /* Original background color */
+}
+
+.angle-bg::before {
+    background-color: var(--blue);
+    top: 0;
+    transform: skewY(2deg);
+    transform-origin: 100% 0;
+}
+
+.angle-bg::after {
+    background-color: var(--blue);
+    bottom: 0;
+    transform: skewY(-2deg);
+    transform-origin: 100%;
+}
+
+/* Styles for angle-bg2 (flipped) */
+.angle-bg2 {
+    background-color: var(--black); /* Different background color */
+}
+
+.angle-bg2::before {
+    background-color: var(--black);
+    top: 0;
+    transform: skewY(-2deg);
+    transform-origin: 0% 0;
+}
+
+.angle-bg2::after {
+    background-color: var(--black);
+    bottom: 0;
+    transform: skewY(2deg);
+    transform-origin: 0% 100%;
+}
+
+/* Styles for angle-bg3 */
+.angle-bg3 {
+    background-color: brown; /* Another background color */
+}
+
+.angle-bg3::before {
+    background-color: brown;
+    top: 0;
+    transform: skewY(2deg);
+    transform-origin: 100% 0;
+}
+
+.angle-bg3::after {
+    background-color: brown;
+    bottom: 0;
+    transform: skewY(-2deg);
+    transform-origin: 100%;
+}
+
+/* Styles for angle-bg4 */
+.angle-bg4 {
+    background-color: var(--blue); /* Change as needed */
+}
+
+.angle-bg4::before {
+    background-color: var(--blue);
+    top: 0;
+    transform: skewY(-2deg);
+    transform-origin: 0% 0;
+}
+
+.angle-bg4::after {
+    background-color: var(--blue);
+    bottom: 0;
+    transform: skewY(2deg);
+    transform-origin: 0% 100%;
+}
+
+/* Styles for angle-bg5 */
+.angle-bg5 {
+    background-color: var(--black); /* Change as needed */
+}
+
+.angle-bg5::before {
+    background-color: var(--black);
+    top: 0;
+    transform: skewY(2deg);
+    transform-origin: 100% 0;
+}
+
+.angle-bg5::after {
+    background-color: var(--black);
+    bottom: 0;
+    transform: skewY(-2deg);
+    transform-origin: 100%;
+}
+
+/* Styles for angle-bg6 */
+.angle-bg6 {
+    background-color: green; /* Change as needed */
+}
+
+.angle-bg6::before {
+    background-color: green;
+    top: 0;
+    transform: skewY(-2deg);
+    transform-origin: 0% 0;
+}
+
+.angle-bg6::after {
+    background-color: green;
+    bottom: 0;
+    transform: skewY(2deg);
+    transform-origin: 0% 100%;
+}
+
+/* Styles for angle-bg7 */
+.angle-bg7 {
+    background-color: var(--blue); /* Change as needed */
+}
+
+.angle-bg7::before {
+    background-color: var(--blue);
+    top: 0;
+    transform: skewY(2deg);
+    transform-origin: 100% 0;
+}
+
+.angle-bg7::after {
+    background-color: var(--blue);
+    bottom: 0;
+    transform: skewY(-2deg);
+    transform-origin: 100%;
+}
+
+
+
+/* Parallax Effects */
+
+section.intro {
+    background: url('../img/portrait.jpg') center / cover no-repeat fixed;
+}
+
+
+.wheatfield {
+    background: url('../img/wheatfieldwithcrows.jpg') center / cover no-repeat fixed;
+    padding: 10rem 0;
+}
+
+.almond {
+    background: url('../img/almondblossoms.jpg') center / cover no-repeat fixed;
+    padding: 10rem 0;
+}
+
+.treeroots {
+    background: url('../img/treeroots.jpg') center / cover no-repeat fixed;
+    padding: 10rem 0;
+}
+
+.sower{
+    background: url('../img/sower.jpg') center / cover no-repeat fixed;
+    padding: 10rem 0;
+}
+
+.church {
+    background: url('../img/church.jpg') center / cover no-repeat fixed;
+    padding: 10rem 0;
+}
+
+.house {
+    background: url('../img/house.jpg') center / cover no-repeat fixed;
+    padding: 10rem 0;
+}
+
+.kingfisher {
+    background: url('../img/kingfisher.jpg') center / cover no-repeat fixed;
+    padding: 10rem 0;
+}
+
+
