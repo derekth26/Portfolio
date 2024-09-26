@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokédex</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <main>
+        <section class="pokedex">
+            <div class="left">
+                <div class="top">
+                    <div class="circle"></div>
+                    <div class="circle2"></div>
+                    <div class="circle3"></div>
+                    <div class="circle4"></div>
+                </div>
+                
+                
+                <div class="results">
+                    <img src="" alt="Pokémon Sprite" id="pokemonsprite" style="display:none">
+                
+                </div>
+                
+                <div class="bottom">
+                    <div class="above">
+                        <div class="rectangle"></div>
+                        <div class="rectangle2"></div>
+                    </div>
+
+                    <div class="below">
+                        <div class="circle5"></div>
+                        <div class="rectangle3"></div>
+                        <div class="plus">+</div>
+                        
+                    </div>
+                </div>
+
+                
+            </div>
+
+            <div class="right">
+
+                
+                    <div class="description">
+                        <h2 id="pokemonName"></h2> <!-- Display Pokémon name -->
+                        <div id="pokemonTypes"></div> <!-- Display Pokémon types -->
+                        <div id="pokemonStats"></div> <!-- Display Pokémon stats -->
+                    </div>
+                
+
+                <div class="search">
+                    <input type="text" id="name" placeholder="Enter Pokémon Name">
+                    <button onclick="fetchData()">Search Pokémon</button> <!-- Call fetchData here -->
+                </div>
+
+
+            </div>
+            
+
+            
+        </section>
+    </main>
+
+    <script type="module" src="js/index.js"></script>
+</body>
+</html>
