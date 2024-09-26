@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+
+  <title>Job Search</title>
+
+  <!-- Link your JS File here via a script tag for parcel below -->
+   
+
+
+</head>
+  
+<body class=" h-100  text-white bg-light">
+  <header data-bs-theme="dark">
+    <div class="navbar navbar-dark bg-dark shadow-sm">
+      <div class="container">
+        <a href="#" class="navbar-brand d-flex align-items-center">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-briefcase" viewBox="0 0 16 16" >
+            <path d="M6.5 1A1.5 1.5 0 0 0 5 2.5V3H1.5A1.5 1.5 0 0 0 0 4.5v8A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-8A1.5 1.5 0 0 0 14.5 3H11v-.5A1.5 1.5 0 0 0 9.5 1zm0 1h3a.5.5 0 0 1 .5.5V3H6v-.5a.5.5 0 0 1 .5-.5m1.886 6.914L15 7.151V12.5a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5V7.15l6.614 1.764a1.5 1.5 0 0 0 .772 0M1.5 4h13a.5.5 0 0 1 .5.5v1.616L8.129 7.948a.5.5 0 0 1-.258 0L1 6.116V4.5a.5.5 0 0 1 .5-.5"/>
+          </svg>
+          <strong class="px-2">Job Search</strong>
+        </a>
+      </div>
+    </div>
+  </header>
+  <main class="pt-3 mx-auto">
+    <div class="container">
+      <ul id="jobs-tab-navigation" class="nav nav-tabs">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Search</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">My Bookmarked Jobs</a>
+        </li>
+       
+      </ul>
+    </div>
+    <div id="search-jobs-tab" class=" container album py-3 bg-body-tertiary">
+      <h5 class="text-dark">Search</h5>
+      <form id="search-jobs-form">
+        <div class="row">
+          <div class="col-lg-7 mb-1">
+            <input
+              name="query"
+              type="text"
+              class="form-control"
+              placeholder="Search"
+              id="query-input"
+            >
+          </div>
+          <div class="col-lg-2 mb-1">
+            <button type="submit" class="btn btn-primary w-100">Search</button>
+          </div>
+        </div>
+      </form>
+      <h2 class="text-dark">Results</h2>
+      <div class="row ">
+
+          <div class="col-6 mb-1">
+              <ul id="searched-jobs" class="px-0">
+              
+              </ul>
+          </div>
+          <div class="col-6 mb-1">
+              <div id="job-details-card">
+  
+              </div>
+          </div>
+      </div>
+
+    </div>
+    <div id="my-jobs-tab" class="d-none container py-3 bg-body-tertiary">
+      <h5 class="text-dark mb-1">Bookmarked Jobs</h5>
+      <div class="col-12 mb-1">
+        <ul id="my-jobs" class="px-0">
+        
+        </ul>
+      </div>
+    </div>
+  </main>
+
+  
+</body>
+<script type="module" src="../frontend/js/index.js"></script>
+
+</html>
