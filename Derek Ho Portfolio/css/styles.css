@@ -222,7 +222,7 @@ main {
   width: 0; /* Initially hide the text by setting the width to 0 */
   visibility: hidden; /* Keep the text hidden */
   animation: 
-    typing 2.2s steps(30, end) 3s forwards !important ; /* Typing effect with delay */
+    typing 2s steps(30, end) 3s forwards !important ; /* Typing effect with delay */
    
 }
 
