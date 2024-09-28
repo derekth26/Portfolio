@@ -220,24 +220,8 @@ main {
   margin: 0 auto; /* Center the content */
   letter-spacing: .15em; /* Adjust as needed */
   width: 0; /* Initially hide the text by setting the width to 0 */
-  @import url('https://fonts.googleapis.com/css?family=Fira+Mono:400');
-
-  body{ 
-    display: flex;
-    width: 100vw;
-    height: 100vh;
-    align-items: center;
-    justify-content: center;
-    margin: 0;
-    background: #131313;
-    color: #fff;
-    font-size: 96px;
-    font-family: 'Fira Mono', monospace;
-    letter-spacing: -7px;
-  }
-  
   div{
-    animation: glitch 1s linear infinite;
+    animation: glitch 1s linear infinite !important;
   }
   
   @keyframes glitch{
