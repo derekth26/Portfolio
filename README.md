@@ -16,4 +16,4 @@ Here are a few projects I’ve worked on:
 [Planet Catalogue](http://planetcatalogue.42web.io/?i=1): A planet catalogue site utilizing Bootstrap, PHP, and MySQL, incorporating CRUD functionalities for managing planetary data.
 
 
-Feel free to explore my projects and connect with me if you have any questions! Here is a link to my portfolio: [My Portfolio](https://derekhoportfolio.netlify.app/)
+Feel free to explore my projects and connect with me if you have any questions! Here is a link to my portfolio with my contact info: [My Portfolio](https://derekhoportfolio.netlify.app/)
