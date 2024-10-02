@@ -1,0 +1,81 @@
+body{
+  background-color: rgb(43, 43, 43);
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.to-do-list{
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 100px;
+}
+
+h1{
+  font-size: 3rem;
+  color: white;
+  
+}
+.add{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input[type="text"]{
+  font-size: 1.5rem;
+  padding: 5px;
+  border: 2px solid hsla(0, 0%, 80%, 0.5);
+  border-radius: 5px;
+  color: hsla(0, 0%, 0%, 0.5);
+}
+ol{
+  padding: 0;
+  margin-top: 4rem;
+  
+}
+li{
+  font: 2rem;
+  font-weight: bold;
+  padding: 15px;
+  background-color: hsl(0, 0%, 97%);
+  margin-bottom: 10px;
+  border: 3px solid hsla(0, 0%, 85%, 0.75);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+ 
+}
+
+.text{
+  flex: 1;
+
+}
+
+.delete-button, .move-button{
+  padding: 8px 12px;
+  font-size: 1.4rem;
+  margin-left: 10px;
+ }
+
+ @media (min-width:800px) {
+
+  ol{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+  li{
+    
+    width:50%;
+    
+   
+  }
+
+  
+ }
