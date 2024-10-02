@@ -1,5 +1,4 @@
 
-Hi, I’m Derek, a passionate front-end web developer dedicated to creating engaging and user-friendly websites. With a strong foundation in HTML, CSS, and JavaScript, I enjoy transforming ideas into reality through clean code and thoughtful design.
 
 My Projects
 Here are a few projects I’ve worked on:
