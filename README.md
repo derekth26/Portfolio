@@ -1,7 +1,6 @@
 
 
-My Projects
-Here are a few projects I’ve worked on:
+Here are a few projects of mine:
 
 [TRVL](https://trvlad.netlify.app/): A travel app built with React, Vite, and Node.js, featuring a sleek interface using MUI and CSS, allowing users to browse tours worldwide.
 
