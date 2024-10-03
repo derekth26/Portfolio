@@ -339,11 +339,7 @@ a {
 
 #section3{
   margin-top: 300px;
-  background: linear-gradient(-45deg, #7174c2, #50b1d7, #a97eb2, #3a8be7, #11266a); 
-  /*background: linear-gradient(-45deg, #01efac, #01cbae, #2082a6, #524096, #5f2a84);*/
-  overflow-x: hidden;
-	background-size: 400% 400%;
-	animation: gradient 10s ease infinite !important;
+  background: #709bff;
   color: white;
   padding: 8rem 0 8rem 0;
 
