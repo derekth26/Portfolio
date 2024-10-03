@@ -11,7 +11,7 @@ header {
 	background-size: 400% 400%;
 	animation: gradient 10s ease infinite !important;
   height: 750px;
-  border-radius: 0 0 60px 60px;
+  border-radius: 0 0 50px 50px;
 	
 }
 
@@ -109,7 +109,7 @@ nav ul li a::after {
   position: absolute;
   width: 100%;
   height: 2px;
-  background-color: white;
+  background-color: black;
   left: 0;
   transform: scaleX(0);
   transition: all 0.5s !important;
@@ -157,10 +157,10 @@ nav ul li a:hover::after {
 
 
 main {
-  position: relative;
+ 
   z-index: 101;
   padding: 20px;
-  color: white;
+  color: black;
   max-width: 100%;
 }
 
