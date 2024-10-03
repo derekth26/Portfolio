@@ -1,20 +1,15 @@
+
+
+
+
 body {
   overflow-x: hidden;
-  background: #3a8be7;
-}
-
-
-
-header {
 	background: linear-gradient(-45deg, #7174c2, #50b1d7, #a97eb2, #3a8be7, #11266a); 
   /*background: linear-gradient(-45deg, #01efac, #01cbae, #2082a6, #524096, #5f2a84);*/
-  
-  
 
 	background-size: 400% 400%;
 	animation: gradient 10s ease infinite !important;
-  height: 600px;
-  
+  height: 100%;
 	
 }
 
