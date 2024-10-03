@@ -337,9 +337,10 @@ a {
 }
 
 #section3{
-  margin-top: 20px;
+  margin-top: 300px;
   background: black;
   color: white;
+  border-radius: 30px ;
 }
 
 
