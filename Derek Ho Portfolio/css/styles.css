@@ -601,7 +601,9 @@ form textarea {
   flex: 0 1 calc(50% - 25px); /* Take up 50% of the width minus the gap */
   box-sizing: border-box;
 }
-
+.projects a{
+  color: white;
+}
 .projects a:hover{
   color: #e6e4e1;
 }
