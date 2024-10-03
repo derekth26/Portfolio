@@ -10,7 +10,7 @@ header {
 	
 }
 body{
-background: #ced7eb;
+background: white;
 }
 
 @keyframes gradient {
@@ -338,7 +338,7 @@ a {
 
 #section3{
   margin-top: 300px;
-  color: white;
+  color: black;
   padding: 8rem 0 8rem 0;
 
   
