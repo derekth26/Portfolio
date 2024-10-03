@@ -157,7 +157,7 @@ nav ul li a:hover::after {
 
 main {
   z-index: 101;
-  padding: 20px;
+  
   color: black;
   max-width: 100%;
 }
@@ -197,7 +197,7 @@ main {
 
 .maincontainer {
   text-align: left;
-  padding: 1rem;
+  
   display: flex;
   flex-direction: column;
   justify-content: center;
