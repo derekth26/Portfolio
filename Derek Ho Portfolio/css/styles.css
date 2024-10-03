@@ -6,7 +6,7 @@ header {
 
 	background-size: 400% 400%;
 	animation: gradient 10s ease infinite !important;
-  height: 800px;
+  height: 850px;
   border-radius: 0 0 50px 50px;
 	
 }
@@ -275,7 +275,7 @@ a {
 .intro{
   display: flex;
   justify-content: center;
-  margin-top: 200px;
+  margin-top: 220px;
 
 }
 .resume{
