@@ -338,6 +338,7 @@ a {
 
 #section3{
   background: black;
+  height: 50%;
 }
 
 
@@ -590,7 +591,7 @@ form textarea {
   flex-wrap: wrap;
   gap: 25px;
   justify-content: center;
-  padding: 2rem;
+  padding: 0 3rem 0 3rem;
  
 }
 
