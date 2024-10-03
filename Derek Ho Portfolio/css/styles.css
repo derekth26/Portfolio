@@ -6,12 +6,12 @@ header {
 
 	background-size: 400% 400%;
 	animation: gradient 10s ease infinite !important;
-  height: 750px;
+  height: 800px;
   border-radius: 0 0 50px 50px;
 	
 }
 body{
-background: #adc4c7;
+background: white;
 }
 
 @keyframes gradient {
@@ -273,7 +273,7 @@ a {
 .intro{
   display: flex;
   justify-content: center;
-  margin-top: 150px;
+  margin-top: 200px;
 
 }
 .resume{
