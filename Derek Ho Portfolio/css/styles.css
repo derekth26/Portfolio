@@ -345,7 +345,7 @@ a {
 	background-size: 400% 400%;
 	animation: gradient 10s ease infinite !important;
   color: white;
-  padding-bottom: 5rem;
+  padding: 8rem 0 8rem 0;
 
   
 }
