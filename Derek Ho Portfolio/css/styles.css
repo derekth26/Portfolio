@@ -152,7 +152,7 @@ nav ul li a:hover::after {
   }
 }
 
-main > section:not(.projects) {
+.maincontainer > section:not(.projects) {
   padding: 20px; /* Apply padding to all sections except the projects section */
 }
 
@@ -198,7 +198,7 @@ main {
 
 .maincontainer {
   text-align: left;
-  padding: 20px;
+  
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -338,7 +338,7 @@ a {
 
 #section3{
   margin-top: 300px;
-  background: #556282;
+  background: #ffcdc2;
   color: white;
   padding: 8rem 0 8rem 0;
 
