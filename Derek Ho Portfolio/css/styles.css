@@ -337,8 +337,9 @@ a {
 }
 
 #section3{
+  margin-top: 20px;
   background: black;
-  height: 50%;
+  color: white;
 }
 
 
@@ -346,7 +347,6 @@ a {
   margin-bottom: 80px;
   font-size: 3rem;
   text-align: center;
-  margin-top: 250px;
   padding-bottom: 5.5rem;
 }
 
