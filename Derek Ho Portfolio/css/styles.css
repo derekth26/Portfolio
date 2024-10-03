@@ -334,7 +334,9 @@ a {
   opacity: 1; /* Fully visible when scrolled into view */
 }
 
-
+#section3{
+  background: black;
+}
 
 
 #section3 h3 {
@@ -586,8 +588,7 @@ form textarea {
   flex-wrap: wrap;
   gap: 25px;
   justify-content: center;
-  background: black;
-  width: 100%;
+ 
 }
 
 /* For larger screens: two divs per row */
