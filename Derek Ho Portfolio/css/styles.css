@@ -28,11 +28,6 @@ header {
 }
 
 
-a {
-  text-decoration: none;
-  color: #eee;
-}
-
 .container {
   max-width: 120rem;
   width: 90%;
@@ -57,6 +52,7 @@ nav {
   text-transform: uppercase;
   font-size: 1.6rem;
   z-index: 2000;
+  
 }
 
 .brand {
@@ -170,9 +166,6 @@ main {
 
 .wrapper h1 {
   color: white;
-  font-family: "Kanit", sans-serif;
-  font-weight: 600;
-  font-style: normal;
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   border-right: .15em solid transparent; /* The typewriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
@@ -238,6 +231,7 @@ h3 {
   animation-delay: 10s !important;
   animation-duration: 1s !important;
   text-align: center;
+  color: white;
  
 }
 
@@ -270,7 +264,7 @@ p {
 }
 
 a {
-  color: white;
+  color: #000;
   text-decoration: none;
   font-family: "Roboto Condensed", sans-serif;
   font-optical-sizing: auto;
