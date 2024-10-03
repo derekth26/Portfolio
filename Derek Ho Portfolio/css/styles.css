@@ -12,7 +12,8 @@ header {
 
 	background-size: 400% 400%;
 	animation: gradient 10s ease infinite !important;
-  height: 100vh;
+  height: 750px;
+  border-radius: 10px;
 	
 }
 
@@ -288,6 +289,7 @@ a {
 .intro{
   display: flex;
   justify-content: center;
+  padding-top: 150px;
 
 }
 .resume{
