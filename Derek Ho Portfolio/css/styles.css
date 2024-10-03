@@ -198,7 +198,7 @@ main {
 
 .maincontainer {
   text-align: left;
-  
+  padding: 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
