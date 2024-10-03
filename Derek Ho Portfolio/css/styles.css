@@ -336,6 +336,7 @@ a {
 
 
 
+
 #section3 h3 {
   margin-bottom: 80px;
   font-size: 3rem;
@@ -585,6 +586,8 @@ form textarea {
   flex-wrap: wrap;
   gap: 25px;
   justify-content: center;
+  background: black;
+  width: 100%;
 }
 
 /* For larger screens: two divs per row */
