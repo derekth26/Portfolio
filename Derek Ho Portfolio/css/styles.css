@@ -177,7 +177,7 @@ main {
 }
 
 .wrapper h1 {
-  color: black;
+  color: white;
   font-family: "Kanit", sans-serif;
   font-weight: 600;
   font-style: normal;
@@ -251,10 +251,12 @@ h3 {
 
 .fade-in h3 {
   font-size: 2rem;
+  color: white;
 }
 
 .fade-in p {
   margin-top: 5px;
+  color: white;
 }
 
 .hi{
