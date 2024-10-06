@@ -46,7 +46,7 @@ a {
   top: 2.5rem;
   right: 2.5rem;
   color: #eeeeee;
-  font-size: 3rem;
+  font-size: 2rem;
   cursor: pointer;
   z-index: 2001;
   display: none;
@@ -212,7 +212,7 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-top: 150px;
+  margin-top: 130px;
   
 }
 
