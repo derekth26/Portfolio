@@ -124,7 +124,8 @@ header{
     font-family: "Kreon", serif;
     font-size: 1.2rem;
     width: 100%;
-    padding: 1rem;
+    height: 75px;
+    padding: 0 1rem 0 1rem;
     top: 0;
     z-index: 1000;
     
@@ -638,11 +639,7 @@ input[type="submit"]:hover{
         
     }
 
-    .banner:hover{
-    
-        background-size: 120%; 
-        
-    }
+
 
     .welcome h2{
         font-size: 5rem;
