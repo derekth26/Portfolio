@@ -212,7 +212,7 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-top: 130px;
+  margin-top: 120px;
   
 }
 
@@ -812,7 +812,7 @@ form textarea {
 
 @media (min-width: 1000px){
   .maincontainer{
-    margin-top: 200px;
+    margin-top: 1200px;
   }
 
 }
