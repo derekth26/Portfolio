@@ -214,7 +214,7 @@ header rect{
 .banner a:hover{
     background-color: #FEA5A5;
     color: #ffffff;
-    border: 3px solid #FEA5A5;
+    border: 3px solid white;
 }
 .whatcanyouexpect h3{
     text-align: center;
