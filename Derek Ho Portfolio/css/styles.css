@@ -839,7 +839,7 @@ form textarea {
 .menu__btn > span::before,
 .menu__btn > span::after {
   display: block;
-  position: absolute;
+  
   width: 30px;
   height: 3px;
   background-color: #FEA5A5;
