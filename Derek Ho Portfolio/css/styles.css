@@ -317,7 +317,7 @@ a {
   mask-position: 0;
 }
 
-.github:hover, .resume:hover {
+.github:hover, .resume:hover, .linkedin:hover{
   transition: mask-position 2s ease,-webkit-mask-position 2s ease !important;
   -webkit-mask-position: 120%;
   mask-position: 120%;
