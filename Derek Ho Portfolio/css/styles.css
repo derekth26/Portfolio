@@ -811,15 +811,10 @@ form textarea {
 }
 
 @media (min-width: 1000px){
-  .maincontainer{
-    margin-top: 1200px;
-  }
+ 
 
 }
 
-.brand{
-  visibility: hidden;
-}
 
 
 
