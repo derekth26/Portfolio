@@ -811,6 +811,66 @@ form textarea {
 }
 
 
+/* Hide the navigation menu off-screen by default */
+.menu__box {
+  position: fixed;
+  top: -250%; /* Hide it above the viewport */
+  right: 200px;
+  width: 100%;
+  transition: top 0.1s ease-in-out !important;
+  z-index: -1;
+}
+
+
+/* Default styles for the menu button */
+.menu__btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  position: relative;
+  margin-top: 1.3rem;
+}
+
+/* Hamburger lines */
+.menu__btn > span,
+.menu__btn > span::before,
+.menu__btn > span::after {
+  display: block;
+  position: absolute;
+  width: 30px;
+  height: 3px;
+  background-color: #FEA5A5;
+  transition: transform 0.3s ease, top 0.25s ease; /* Smooth transformation */
+  content: "";
+}
+
+.menu__btn > span::before {
+  top: -8px;
+}
+
+.menu__btn > span::after {
+  top: 8px;
+}
+
+/* When the checkbox is checked, rotate the hamburger into an X */
+#menu__toggle:checked + .menu__btn > span {
+  transform: rotate(-45deg);
+}
+
+#menu__toggle:checked + .menu__btn > span::before {
+  top: 0;
+  transform: rotate(-90deg);
+}
+
+#menu__toggle:checked + .menu__btn > span::after {
+  top: 0;
+  transform: rotate(-90deg);
+}
+
+
 
 
 
