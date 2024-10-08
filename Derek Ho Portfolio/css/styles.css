@@ -323,6 +323,8 @@ a {
   mask-position: 120%;
   opacity: 1;
 }
+
+
 .aboutme h2 {
   text-align: center;
   font-size: 3rem;
@@ -770,6 +772,8 @@ form textarea {
   .fade.projects .fade {
     width: 100%; /* Full width for each div */
   }
+
+  
 }
 
 
