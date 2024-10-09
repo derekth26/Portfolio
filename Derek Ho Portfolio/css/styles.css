@@ -536,14 +536,7 @@ a {
   100%   { transform: translate(0, -0px); }    
 }
 
-.skills img:hover{
-  transition: mask-position 2s ease,-webkit-mask-position 2s ease !important;
-  -webkit-mask-position: 120%;
-  mask-position: 120%;
-  opacity: 1;
-  cursor: pointer;
 
-}
 
 .skills .fade{
 
