@@ -500,6 +500,8 @@ a {
   font-size: 2rem;
 }
 
+
+
 .skills h3 {
   font-size: 3rem;
   font-family: "Kanit", sans-serif;
@@ -517,6 +519,21 @@ a {
   mask-size: 800%;
   -webkit-mask-position: 0;
   mask-position: 0;
+}
+
+.skills div {  
+  animation-name: floating;
+  animation-duration: 5s !important;
+  animation-iteration-count: infinite !important;
+  animation-timing-function: ease-in-out !important;
+  margin-left: 0px;
+  margin-top: 0px;
+}
+
+@keyframes floating {
+  0% { transform: translate(0,  0px); }
+  50%  { transform: translate(0, 15px); }
+  100%   { transform: translate(0, -0px); }    
 }
 
 .skills img:hover{
