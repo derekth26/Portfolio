@@ -954,7 +954,7 @@ form textarea {
   
   .skills div {
     animation-name: floating;
-    animation-duration: 5s;
+    animation-duration: 5s !important;
     animation-iteration-count: infinite !important;
     animation-timing-function: ease-in-out !important;
     margin-left: 0px;
