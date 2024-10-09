@@ -440,7 +440,9 @@ a {
   opacity: 1; /* Fully visible when scrolled into view */
 }
 
-
+#section3{
+  padding: 8rem;
+}
 
 #section3 h3 {
   
