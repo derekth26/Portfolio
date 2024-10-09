@@ -954,7 +954,7 @@ form textarea {
   
   .skills div {
     animation-name: floating;
-    animation-duration: 5s !important;
+    animation-duration: 10s !important; /* Slowed down */
     animation-iteration-count: infinite !important;
     animation-timing-function: ease-in-out !important;
     margin-left: 0px;
@@ -963,8 +963,7 @@ form textarea {
   
   .skills div:nth-child(even) {
     animation-name: floating-opposite;
-    
-    
+    animation-duration: 10s !important; /* Ensure both animations have the same duration */
   }
   
   @keyframes floating {
@@ -978,6 +977,7 @@ form textarea {
     50% { transform: translate(0, -15px); }
     100% { transform: translate(0, 0px); }
   }
+  
   
   
 
