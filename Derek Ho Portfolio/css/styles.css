@@ -531,7 +531,7 @@ a {
 }
 
 /* Target every second div */
-.skills div:nth-child(even) {  
+.skills .fade:nth-child(even) {  
   animation-direction: reverse !important;
 }
 
