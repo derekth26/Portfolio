@@ -975,20 +975,37 @@ form textarea {
     font-size: 3.5rem;
   }
   
- /* General floating animation for odd divs */
-.skills div {
-  animation-name: floating;
-  animation-duration: 5s !important;
-  animation-iteration-count: infinite !important;
-  animation-timing-function: ease-in-out !important;
-  margin-left: 0px;
-  margin-top: 0px;
-}
-
-
-
-/* Keyframe for the default floating animation (odd divs) */
-
+  .skills div {
+    animation-duration: 5s !important;
+    animation-iteration-count: infinite !important;
+    animation-timing-function: ease-in-out !important;
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+  
+  /* Animation for odd divs (1st, 3rd, 5th, etc.) */
+  .skills div:nth-child(odd) {
+    animation-name: floating-odd;
+  }
+  
+  /* Animation for even divs (2nd, 4th, 6th, etc.) */
+  .skills div:nth-child(even) {
+    animation-name: floating-even;
+  }
+  
+  /* Keyframes for odd divs */
+  @keyframes floating-odd {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(15px); }
+    100% { transform: translateY(0px); }
+  }
+  
+  /* Keyframes for even divs */
+  @keyframes floating-even {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-15px); }
+    100% { transform: translateY(0px); }
+  }
 
 
 
