@@ -530,10 +530,7 @@ a {
   margin-top: 0px;
 }
 
-/* Target every second div */
-.skills .fade:nth-child(even) {  
-  animation-direction: reverse !important;
-}
+
 
 @keyframes floating {
   0% { transform: translate(0, 0px); }
