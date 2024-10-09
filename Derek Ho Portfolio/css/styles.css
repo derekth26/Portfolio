@@ -969,26 +969,7 @@ form textarea {
     font-size: 3.5rem;
   }
   
- /* General floating animation for odd divs */
-.skills div {
-  animation-name: floating;
-  animation-duration: 5s !important;
-  animation-iteration-count: infinite !important;
-  animation-timing-function: ease-in-out !important;
-  margin-left: 0px;
-  margin-top: 0px;
-}
-
-
-
-/* Keyframe for the default floating animation (odd divs) */
-@keyframes floating {
-  0% { transform: translate(0, 0px); }
-  50% { transform: translate(0, 15px); }
-  100% { transform: translate(0, 0px); }
-}
-
-
+ 
 
 
 
