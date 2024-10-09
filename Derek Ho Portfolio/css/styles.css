@@ -952,18 +952,18 @@ form textarea {
     font-size: 3.5rem;
   }
   
-  .skills div {
+  .skills div:nth-child(odd) {
     animation-name: floating;
-    animation-duration: 10s !important; /* Adjust to slow the animation */
+    animation-duration: 10s !important;
     animation-iteration-count: infinite !important;
     animation-timing-function: ease-in-out !important;
-    margin-left: 0px;
-    margin-top: 0px;
   }
   
-  /* This applies a different animation to even divs */
   .skills div:nth-child(even) {
     animation-name: floating-opposite;
+    animation-duration: 10s !important;
+    animation-iteration-count: infinite !important;
+    animation-timing-function: ease-in-out !important;
   }
   
   @keyframes floating {
@@ -977,6 +977,7 @@ form textarea {
     50% { transform: translate(0, -15px); }
     100% { transform: translate(0, 0px); }
   }
+  
   
   
   
