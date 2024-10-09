@@ -954,16 +954,16 @@ form textarea {
   
   .skills div {
     animation-name: floating;
-    animation-duration: 10s !important; /* Slowed down */
+    animation-duration: 10s !important; /* Adjust to slow the animation */
     animation-iteration-count: infinite !important;
     animation-timing-function: ease-in-out !important;
     margin-left: 0px;
     margin-top: 0px;
   }
   
+  /* This applies a different animation to even divs */
   .skills div:nth-child(even) {
     animation-name: floating-opposite;
-    animation-duration: 10s !important; /* Ensure both animations have the same duration */
   }
   
   @keyframes floating {
