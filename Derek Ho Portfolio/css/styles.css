@@ -969,23 +969,35 @@ form textarea {
     font-size: 3.5rem;
   }
   
-  .skills div {  
-    animation-name: floating;
-    animation-duration: 5s !important;
-    animation-iteration-count: infinite !important;
-    animation-timing-function: ease-in-out !important;
-    margin-left: 0px;
-    margin-top: 0px;
-  }
-  
- 
-  
-  @keyframes floating {
-    0% { transform: translate(0, 0px); }
-    50%  { transform: translate(0, 15px); }
-    100% { transform: translate(0, 0px); }    
-  }
-  
+ /* General floating animation for odd divs */
+.skills div {
+  animation-name: floating;
+  animation-duration: 5s !important;
+  animation-iteration-count: infinite !important;
+  animation-timing-function: ease-in-out !important;
+  margin-left: 0px;
+  margin-top: 0px;
+}
+
+/* Reverse floating animation for even divs */
+.skills div:nth-child(even) {
+  animation-name: floating-opposite;
+}
+
+/* Keyframe for the default floating animation (odd divs) */
+@keyframes floating {
+  0% { transform: translate(0, 0px); }
+  50% { transform: translate(0, 15px); }
+  100% { transform: translate(0, 0px); }
+}
+
+/* Keyframe for the reverse floating animation (even divs) */
+@keyframes floating-opposite {
+  0% { transform: translate(0, 0px); }
+  50% { transform: translate(0, -15px); }
+  100% { transform: translate(0, 0px); }
+}
+
 
 
 }
