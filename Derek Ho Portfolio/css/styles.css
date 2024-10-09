@@ -429,7 +429,16 @@ a {
   padding: 5rem;
   opacity: 1;
   width: 100%;
+    animation-name: floating;
+    animation-duration: 5s !important;
+    animation-iteration-count: infinite !important;
+    animation-timing-function: ease-in-out !important;
+    margin-left: 0px;
+    margin-top: 0px;
+  
 }
+
+
 
 .fade {
   opacity: 0;
