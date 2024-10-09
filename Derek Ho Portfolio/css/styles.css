@@ -952,31 +952,34 @@ form textarea {
     font-size: 3.5rem;
   }
   
-  .skills div {
+  .skills div {  
     animation-name: floating;
-    animation-duration: 10s; /* Slowed down */
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
+    animation-duration: 5s !important;
+    animation-iteration-count: infinite !important;
+    animation-timing-function: ease-in-out !important;
     margin-left: 0px;
     margin-top: 0px;
   }
   
-  .skills div:nth-child(even) {
-    animation-name: floating-opposite;
-    animation-duration: 10s; /* Ensure both animations have the same duration */
+  /* Target every second div (even) to float in opposite direction */
+  .skills div:nth-child(even) {  
+    animation-name: floating-reverse;
   }
   
   @keyframes floating {
     0% { transform: translate(0, 0px); }
-    50% { transform: translate(0, 15px); }
-    100% { transform: translate(0, 0px); }
+    50%  { transform: translate(0, 15px); }
+    100% { transform: translate(0, 0px); }    
   }
   
-  @keyframes floating-opposite {
+  /* Define the reverse animation for even divs */
+  @keyframes floating-reverse {
     0% { transform: translate(0, 0px); }
-    50% { transform: translate(0, -15px); }
-    100% { transform: translate(0, 0px); }
+    50%  { transform: translate(0, -15px); }
+    100% { transform: translate(0, 0px); }    
   }
+  
+  
   
   
   
