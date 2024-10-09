@@ -963,6 +963,8 @@ form textarea {
   
   .skills div:nth-child(even) {
     animation-name: floating-opposite;
+    
+    
   }
   
   @keyframes floating {
