@@ -976,40 +976,23 @@ form textarea {
   }
   
   .skills div {
-    animation-duration: 5s !important;
-    animation-iteration-count: infinite !important;
-    animation-timing-function: ease-in-out !important;
-    margin-left: 0px;
-    margin-top: 0px;
+    
+    animation: bounce2 2s ease infinite !important;
+    
+   
+    
   }
+  @keyframes bounce2 {
+    0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+    40% {transform: translateY(-30px);}
+    60% {transform: translateY(-15px);}
   
-  /* Animation for odd divs (1st, 3rd, 5th, etc.) */
-  .skills div:nth-child(odd) {
-    animation-name: floating-odd;
-  }
   
-  /* Animation for even divs (2nd, 4th, 6th, etc.) */
-  .skills div:nth-child(even) {
-    animation-name: floating-even;
-  }
-  
-  /* Keyframes for odd divs */
-  @keyframes floating-odd {
-    0% { transform: translateY(0px); }
-    50% { transform: translateY(15px); }
-    100% { transform: translateY(0px); }
-  }
-  
-  /* Keyframes for even divs */
-  @keyframes floating-even {
-    0% { transform: translateY(0px); }
-    50% { transform: translateY(-15px); }
-    100% { transform: translateY(0px); }
-  }
 
 
 
 
+}
 }
 
 
