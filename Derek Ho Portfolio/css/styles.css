@@ -975,10 +975,10 @@ form textarea {
     font-size: 3.5rem;
   }
   
-  .html, .js, .node, .wordpress, .mysql, .bootstrap{
+  .html, .js, .node, .wordpress, .bootstrap{
   
       animation-name: floating;
-      animation-duration: 3s !important;
+      animation-duration: 4s !important;
       animation-iteration-count: infinite !important;
       animation-timing-function: ease-in-out !important;
       margin-left: 30px;
@@ -989,6 +989,17 @@ form textarea {
   from { transform: translate(0,  0px); }
   65%  { transform: translate(0, 15px); }
   to   { transform: translate(0, -0px); }    
+}
+
+.css, .react, .php, .figma, .mysql, .bootstrap, .mysql{
+  
+  animation-name: floating;
+  animation-duration: 4s !important;
+  animation-iteration-count: infinite !important;
+  animation-timing-function: ease-in-out !important;
+  margin-left: 30px;
+  margin-top: 5px;
+
 }
 }
 
