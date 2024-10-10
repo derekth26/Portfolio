@@ -545,8 +545,8 @@ animation-delay: .5s !important;
 animation-duration: 4s !important;
 animation-iteration-count: infinite !important;
 animation-timing-function: ease-in-out !important;
-margin-left: 0;
-margin-top: 0;
+margin-left: 30px;
+margin-top: 5px;
 
 }
 
