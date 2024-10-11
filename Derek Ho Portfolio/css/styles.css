@@ -523,25 +523,33 @@ a {
   align-items: center;
   gap: 10px;
   padding-top: 30px;
+}
 
+.links a {
   animation-name: floating;
-  animation-duration: 6s !important; /* Control the speed */
+  animation-duration: 3s !important; /* Control the speed */
   animation-iteration-count: infinite !important;
   animation-timing-function: ease-in-out !important;
-  margin-left: 30px;
-  margin-top: 5px;
 }
 
-/* Reverse animation for every second link */
-.linkedin{
-  animation-direction: reverse !important;
+.links a.linkedin {
+  animation-name: floating-reverse; /* Specific animation for LinkedIn */
 }
 
+/* Floating animation */
 @keyframes floating {
   from { transform: translate(0, 0px); }
-  50% { transform: translate(0, 15px); }
+  50% { transform: translate(15, 15px); }
   to { transform: translate(0, 0px); }
 }
+
+/* Reverse floating animation */
+@keyframes floating-reverse {
+  from { transform: translate(0, 0px); }
+  50% { transform: translate(0, -15px); } /* Move in the opposite direction */
+  to { transform: translate(0, 0px); }
+}
+
 
 .github img{
   width: 55px;
