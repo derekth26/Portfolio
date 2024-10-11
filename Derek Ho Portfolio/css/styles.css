@@ -74,6 +74,7 @@
 }
 
 
+
 @keyframes rotate {
   from{
     transform: rotateY(0deg);
