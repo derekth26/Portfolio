@@ -579,33 +579,7 @@ a {
   font-style: normal;
   font-size: 2rem;
 }
-.html, .js, .node, .wordpress, .bootstrap{
-  
-  animation-name: floating;
-  animation-duration: 4s !important;
-  animation-iteration-count: infinite !important;
-  animation-timing-function: ease-in-out !important;
-  margin-left: 30px;
-  margin-top: 5px;
 
-}
-@keyframes floating {
-from { transform: translate(0,  0px); }
-65%  { transform: translate(0, 15px); }
-to   { transform: translate(0, -0px); }    
-}
-
-.css, .react, .php, .figma, .mysql, .bootstrap, .mysql{
-
-animation-name: floating;
-animation-delay: .5s !important;
-animation-duration: 4s !important;
-animation-iteration-count: infinite !important;
-animation-timing-function: ease-in-out !important;
-margin-left: 30px;
-margin-top: 5px;
-
-}
 
 
 .slideshow  h3 {
