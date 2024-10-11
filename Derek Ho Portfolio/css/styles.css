@@ -23,9 +23,8 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 .introbutton a {
   position: relative;
   display: inline-block;
-  padding: 15px 30px; /* Adjust padding to fit button */
-  color: white;
-  background: linear-gradient(90deg, hsla(202, 71%, 27%, 1) 0%, hsla(176, 45%, 66%, 1) 100%);
+  padding: 15px 30px;
+  background-color: #19191a;
 
   text-decoration: none;
   text-transform: uppercase;
