@@ -525,31 +525,20 @@ a {
   padding-top: 30px;
 }
 
-.links a {
+.floating {  
   animation-name: floating;
-  animation-duration: 3s !important; /* Control the speed */
+  animation-duration: 3s !important;
   animation-iteration-count: infinite !important;
   animation-timing-function: ease-in-out !important;
+  margin-left: 30px;
+  margin-top: 5px;
 }
 
-.links a.linkedin {
-  animation-name: floating-reverse; /* Specific animation for LinkedIn */
-}
-
-/* Floating animation */
 @keyframes floating {
-  from { transform: translate(0, 0px); }
-  50% { transform: translate(0, 15px); } /* Increased height */
-  to { transform: translate(0, 0px); }
+  from { transform: translate(0,  0px); }
+  65%  { transform: translate(0, 15px); }
+  to   { transform: translate(0, -0px); }    
 }
-
-/* Reverse floating animation */
-@keyframes floating-reverse {
-  from { transform: translate(0, 0px); }
-  50% { transform: translate(0, -30px); } /* Increased height in the opposite direction */
-  to { transform: translate(0, 0px); }
-}
-
 
 .github img{
   width: 55px;
