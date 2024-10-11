@@ -900,7 +900,7 @@ form textarea {
 }
 
 .projects a{
-  color: white;
+  color: #282829;
 
 }
 
@@ -923,7 +923,7 @@ form textarea {
 }
 
 .projects a:hover{
-  color: #6981c2;
+  color: #737374;
 }
 
 .wireframe{
