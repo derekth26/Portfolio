@@ -1,71 +1,97 @@
 
+.slideshow{
+  margin: 0 auto;
+  padding-top: 50px;
+  height: 700px;
+  background: #444;
+  perspective: 1000px;
+}
+.content{
+  margin: auto;
+  width: 150px;
+  perspective: 1000px;
+  position:relative;
+  padding-top: 80px;
+  transform-style: preserve-3d;
+}
+.slider-content{
+  width: 100%;
+  position:absolute;
+  float:right;
+  animation: rotate 15s infinite linear;
+  transform-style: preserve-3d;
+}
+.slider-content:hover{
+  cursor: pointer;
+  animation-play-state: paused;
+}
+
+.slider-content figure{
+  width:180px;
+  height:120px;
+  border:1px solid #555;
+  overflow:hidden;
+  position:absolute;
+}
+.slider-content figure:nth-child(1){
+  transform:rotateY(0deg) translateZ(300px);
+}
+
+.slider-content figure:nth-child(2){
+  transform:rotateY(40deg) translateZ(300px);
+}
+.slider-content figure:nth-child(3){
+  transform:rotateY(80deg) translateZ(300px);
+}
+.slider-content figure:nth-child(4){
+  transform:rotateY(120deg) translateZ(300px);
+}
+.slider-content figure:nth-child(5){
+  transform:rotateY(160deg) translateZ(300px);
+}
+.slider-content figure:nth-child(6){
+  transform:rotateY(200deg) translateZ(300px);
+}
+.slider-content figure:nth-child(7){
+  transform:rotateY(240deg) translateZ(300px);
+}
+.slider-content figure:nth-child(8){
+  transform:rotateY(280deg) translateZ(300px);
+}
+.slider-content figure:nth-child(9){
+  transform:rotateY(320deg) translateZ(300px);
+}
+
+.shadow{
+  position: absolute;
+  box-shadow: 0px 0px 0px #000;
+ 
+}
+.slider-content img{
+  image-rendering: auto;
+  transition: all 300ms;
+  width: 100%;
+  height: 100%;
+}
+.slider-content img:hover{
+  transform: scale(1.2);
+  transition: all 300ms;
+ 
+}
+
+@keyframes rotate {
+  from{
+    transform: rotateY(0deg);
+  }
+  to{
+      transform: rotateY(360deg);
+  }
+}
 
 
-.slider{
-    position: relative;
-     max-width: 40rem; 
-    height: 26.625rem; 
-    margin: 0 auto;
-    overflow: hidden;
-}
-.slide{ 
-    position: absolute;
-    top:0;
-    width: 100%;
-    height: 26.625rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: transform 1s !important;
-}
-.slide > img{
-    width: 150px;
-    height: 100%;
-    
-    object-fit: contain;
-    border-radius: 50%;
-}
-button{
-    background: none;
-    border: none;
-}
-button .fas{
-    color: rgba(255, 255, 255, .5);
-}
-.btn-slide{
-    position:absolute;
-    top:50%;
-    z-index: 10;
 
-    height: 5.5rem;
-    width: 5.5rem;
-    cursor: pointer;
-}
-.prev{
-    left:3rem;
-    transform: translate(-50%, -50%);
-}
-.next{
-    right: 3rem;
-    transform: translate(50%, -50%); 
-}
-.dots-container{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-}
-.dot{
-    width: 25px;
-    height: 5px;
-    margin: 15px 5px;
-    border-radius: .5rem;
-    background: white;
-    cursor: pointer;
-}
-.dot.active{
-background: #3b86ff;
-}
+
+
 
 
 
