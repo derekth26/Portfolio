@@ -116,10 +116,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 
 
 header {
-  background-color: #6b8799;
-  
-  width: 100%;
-  z-index: 1000;
+  background-color: none;
 }
 
 a {
