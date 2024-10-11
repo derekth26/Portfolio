@@ -1137,6 +1137,21 @@ form textarea {
     margin-top: -20px;
 
   }
+
+  .slideshow{
+ 
+    padding-top: 50px;
+    height: 600px;
+    perspective: 1000px;
+    display: flex;
+    justify-content: center;
+   
+  }
+  
+  .width {
+    max-width: 100%;
+    
+  }
 }
 
 @media (max-width: 768px) {
