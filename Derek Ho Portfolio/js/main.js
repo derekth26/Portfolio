@@ -41,7 +41,7 @@ $(window).on('load',function(){
 
 
 
-const cursor = document.querySelector("#cursor");
+
 const cursorBorder = document.querySelector("#cursor-border");
 const cursorPos = { x: 0, y: 0 };
 const cursorBorderPos = { x: 0, y: 0 };
