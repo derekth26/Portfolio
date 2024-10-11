@@ -534,25 +534,43 @@ a {
   justify-content: center;
 }
 
-.aboutme img {
-  padding: 5rem;
+
+
+
+.shape {
+ 
+  visibility: visible;
   opacity: 1;
-  width: 100%;
-  animation-name: floating;
-  animation-duration: 4.5s !important;
-  animation-iteration-count: infinite !important;
-  animation-timing-function: ease-in-out !important;
-  margin-left: 0px;
-  margin-top: 0px;
-  border-radius: 50%;
-    
+  transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+  transition: opacity 0.5s cubic-bezier(0.5, 0, 0, 1) 0.4s, transform 0.5s cubic-bezier(0.5, 0, 0, 1) 0.4s;
+  height:90vh;
+  width: 90vw;
+}
+.bg-cover {
+  margin:20vh auto;
+    height: 280px;
+  width: 280px;
+   background-image: url("img/picofme");
+     -webkit-animation: liquid 7s ease-in-out infinite;
+    animation: liquid 7s ease-in-out infinite !important;
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+  background-size:cover;
   
 }
-@keyframes floating {
-  0% { transform: translate(0, 0px); }
-  50% { transform: translate(0, 15px); }
-  100% { transform: translate(0, 0px); }
+@keyframes liquid {
+0% {
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+   
 }
+50% {
+    border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
+  
+}
+100% {
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    
+}
+  }
 
 
 .circle {
