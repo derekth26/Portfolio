@@ -326,7 +326,7 @@ h3 {
   opacity: 0; /* make things invisible upon start */
   animation: fadeIn ease-in 1 !important;
   animation-fill-mode: forwards !important;
-  animation-delay: 10s !important;
+  animation-delay: 11s !important;
   animation-duration: 1s !important;
   text-align: center;
  
