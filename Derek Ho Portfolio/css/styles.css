@@ -539,14 +539,14 @@ a {
 /* Floating animation */
 @keyframes floating {
   from { transform: translate(0, 0px); }
-  50% { transform: translate(15, 15px); }
+  50% { transform: translate(0, 15px); } /* Increased height */
   to { transform: translate(0, 0px); }
 }
 
 /* Reverse floating animation */
 @keyframes floating-reverse {
   from { transform: translate(0, 0px); }
-  50% { transform: translate(0, -15px); } /* Move in the opposite direction */
+  50% { transform: translate(0, -30px); } /* Increased height in the opposite direction */
   to { transform: translate(0, 0px); }
 }
 
