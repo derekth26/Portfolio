@@ -116,7 +116,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 
 
 header {
-  background-color: #3b86ff;
+  background-color: #6b8799;
   position: fixed;
   width: 100%;
   z-index: 1000;
@@ -1198,7 +1198,7 @@ form textarea {
     width: var(--size);
     height: var(--size);
     border-radius: 50%;
-    box-shadow: 0 0 0 1px gray;
+    box-shadow: 0 0 0 1px #bcc1c4;
     pointer-events: none;
     transition: top 0.15s ease-out, left 0.15s ease-out, width 0.15s ease-out,
       height 0.15s ease-out, background-color 0.15s ease-out  !important;
