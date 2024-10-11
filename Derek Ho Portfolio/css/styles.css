@@ -19,9 +19,11 @@
     transition: transform 1s !important;
 }
 .slide > img{
-    width: 100%;
+    width: 150px;
     height: 100%;
-    object-fit: cover;
+    
+    object-fit: contain;
+    border-radius: 50%;
 }
 button{
     background: none;
