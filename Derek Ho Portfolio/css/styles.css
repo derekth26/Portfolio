@@ -22,7 +22,7 @@ body {
   top: 50%;
   left: 50%;
   transform: translateY(-50%) translateX(-50%) scale(0.3);
-  transition: all 1s ease;
+  transition: all 1s ease !important;
   opacity: 0;
   z-index: -1;
   text-align: center;
@@ -82,7 +82,7 @@ body {
   height: 17px;
   border: 1px solid #4196EF;
   margin: 3px;
-  transition: all 0.5s;
+  transition: all 0.5s !important;
   background: none;
   list-style: none;
   cursor: pointer;
@@ -164,7 +164,7 @@ color: #243C82;
     top: 50%;
     left: 50%;
     transform: translateY(-50%) translateX(-50%) scale(0.3);
-    transition: all 1s ease;
+    transition: all 1s ease !important;
     opacity: 0;
     z-index: -1;
     text-align: center;
