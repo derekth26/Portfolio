@@ -572,13 +572,6 @@ a {
   }
 
 
-.circle {
-  background: rgba(15, 28, 63, 0.125);
-  border-radius: 50%;
-  height: 8em;
-  object-fit: cover;
-  width: 8em;
-}
 
 .fade {
   opacity: 0;
