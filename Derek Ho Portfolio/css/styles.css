@@ -90,6 +90,10 @@
   position: relative;
 }
 
+.slider-content:hover{
+  cursor: pointer;
+  animation-play-state: paused !important;
+}
 
 @keyframes rotate {
   from{
