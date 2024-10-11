@@ -540,6 +540,10 @@ a {
   to   { transform: translate(0, -0px); }    
 }
 
+.linkedin{
+  animation-duration: .5s !important;
+}
+
 .github img{
   width: 55px;
   height: 55px;
