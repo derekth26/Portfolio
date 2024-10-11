@@ -80,3 +80,5 @@ document.querySelectorAll("[data-cursor]").forEach((item) => {
     cursorBorder.style.setProperty("--size", "50px");
   });
 });
+
+

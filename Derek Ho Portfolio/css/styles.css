@@ -968,7 +968,7 @@ form textarea {
 	height: 100%;
 	position: fixed;
 	background: black;
-  height: 100vh;
+  height: 100%;
 	z-index: 5000;
 	.txt{
 		color: white;
