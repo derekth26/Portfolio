@@ -2,17 +2,13 @@
 .slideshow{
  
   padding-top: 50px;
-  height: 600px;
+  height: 700px;
   perspective: 1000px;
-  display: flex;
-  justify-content: center;
+  max-width: 100%;
  
 }
 
-.width {
-  max-width: 100%;
-  
-}
+
 .content{
   margin: auto;
   width: 150px;
@@ -1136,21 +1132,6 @@ form textarea {
 
     margin-top: -20px;
 
-  }
-
-  .slideshow{
- 
-    padding-top: 50px;
-    height: 600px;
-    perspective: 1000px;
-    display: flex;
-    justify-content: center;
-   
-  }
-  
-  .width {
-    max-width: 100%;
-    
   }
 }
 
