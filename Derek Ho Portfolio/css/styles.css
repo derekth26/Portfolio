@@ -533,13 +533,6 @@ a {
   justify-content: center;
 }
 
-.aboutflex{
-  display: flex;
-  align-items: center;
-  gap: 50px;
-}
-
-
 
 
 .shape {
@@ -1121,6 +1114,12 @@ form textarea {
 
   .hi{
     font-size: 3.5rem;
+  }
+
+  .aboutflex{
+    display: flex;
+    align-items: center;
+    gap: 50px;
   }
   
  
