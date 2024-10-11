@@ -626,6 +626,19 @@ a {
   padding: 2.5rem;
 }
 
+.chef:hover ,
+.goat:hover ,
+.pokemon:hover ,
+.catalogue:hover ,
+.wireframe:hover ,
+.trvl:hover ,
+.todolist:hover{
+  
+  
+  border: 2px solid red;
+  
+  
+}
 .chef a,
 .goat a,
 .pokemon a,
