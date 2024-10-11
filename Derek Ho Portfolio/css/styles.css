@@ -517,20 +517,32 @@ a {
  
 }
 
-.floating {  
+.links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding-top: 30px;
+
   animation-name: floating;
-  animation-duration: 3s !important;
+  animation-duration: 6s !important; /* Control the speed */
   animation-iteration-count: infinite !important;
   animation-timing-function: ease-in-out !important;
   margin-left: 30px;
   margin-top: 5px;
 }
 
-@keyframes floating {
-  from { transform: translate(0,  0px); }
-  65%  { transform: translate(0, 15px); }
-  to   { transform: translate(0, -0px); }    
+/* Reverse animation for every second link */
+.linkedin{
+  animation-direction: reverse !important;
 }
+
+@keyframes floating {
+  from { transform: translate(0, 0px); }
+  50% { transform: translate(0, 15px); }
+  to { transform: translate(0, 0px); }
+}
+
 .github img{
   width: 55px;
   height: 55px;
