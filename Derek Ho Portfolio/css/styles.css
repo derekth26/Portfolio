@@ -1112,6 +1112,10 @@ form textarea {
     margin-top: -20px;
 
   }
+
+  .slideshow{
+    margin-top: 20px;
+  }
 }
 
 @media (max-width: 768px) {
