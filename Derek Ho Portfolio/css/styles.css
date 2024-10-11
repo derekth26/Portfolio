@@ -642,14 +642,15 @@ margin-top: 5px;
 }
 
 
-.skills h3 {
+.slideshow h3 {
   font-size: 3rem;
   font-family: "Kanit", sans-serif;
   font-weight: 600;
   font-style: normal;
   text-align: center;
-  margin-top: 150px;
-  margin-bottom: 100px;
+  margin-bottom: 30px;
+ 
+ 
 }
 .skills img {
   width: 100px;
