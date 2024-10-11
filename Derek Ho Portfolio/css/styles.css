@@ -67,26 +67,26 @@
 }
 .slider-content figure {
   width: 120px;
-  height: 150px; 
+  height: 150px; /* Increase the height to make room for the text */
   overflow: hidden;
   position: absolute;
   top: 50%;
   left: 50%;
   transform-origin: 0 0;
-  text-align: center; 
+  text-align: center; /* Center-align the text */
 }
 
 .slider-content img {
   width: 100%;
-  height: 100px;
+  height: 100px; /* Adjust the height of the image to leave space for the text */
   object-fit: contain;
   transition: transform 300ms ease-in-out;
 }
 
 .slider-content p {
-  margin: 10px 0 0; 
-  font-size: 14px;
-  color: white; 
+  margin: 10px 0 0; /* Adds margin above the text */
+  font-size: 14px; /* Adjust font size if needed */
+  color: white; /* Ensure the text color is visible */
   position: relative;
 }
 
@@ -596,6 +596,21 @@ a {
 }
 
 
+.zoom {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  max-width: 100%; 
+  height: auto; 
+}
+
+.zoom img {
+  transition-duration: 0.5s !important;
+}
+.zoom img:hover {
+  transform: scale(1.2);
+  z-index: 0;
+}
 
 .chef ,
 .goat ,
@@ -608,7 +623,7 @@ a {
   
   border: 2px solid #3b86ff;
   border-radius: 10px;
-  color: rgb(174, 171, 171);
+  color: white;
   padding: 2.5rem;
 }
 
@@ -622,7 +637,7 @@ a {
   
   
   border: 2px solid #f7f9fa;
- 
+  
   
 }
 .chef a,
@@ -742,6 +757,8 @@ span:hover{
   cursor: pointer;
 
 }
+
+
 
 
 
