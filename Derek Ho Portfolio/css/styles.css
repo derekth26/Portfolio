@@ -28,9 +28,9 @@
 }
 
 .slider-content figure{
-  width:180px;
-  height:120px;
-  border:1px solid #555;
+  width:100px;
+  height:100px;
+  
   overflow:hidden;
   position:absolute;
 }
