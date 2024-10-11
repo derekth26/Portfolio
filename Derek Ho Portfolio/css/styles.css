@@ -550,8 +550,8 @@ a {
   margin:20vh auto;
     height: 280px;
   width: 280px;
-   background-image: url("img/picofme");
-     -webkit-animation: liquid 7s ease-in-out infinite;
+   background-image: url("img/picofme.JPG");
+     -webkit-animation: liquid 7s ease-in-out infinite !important;
     animation: liquid 7s ease-in-out infinite !important;
     border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
   background-size:cover;
