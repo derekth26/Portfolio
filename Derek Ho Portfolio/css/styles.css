@@ -630,19 +630,7 @@ a {
   padding: 2.5rem;
 }
 
-.chef:hover ,
-.goat:hover ,
-.pokemon:hover ,
-.catalogue:hover ,
-.wireframe:hover ,
-.trvl:hover ,
-.todolist:hover{
-  
-  
-  border: 2px solid #f7f9fa;
-  
-  
-}
+
 .chef a,
 .goat a,
 .pokemon a,
@@ -931,7 +919,7 @@ form textarea {
 
 .projects label:hover{
   cursor: pointer;
-  color: #276dde;
+  color: #6981c2;
 }
 
 .hover{
