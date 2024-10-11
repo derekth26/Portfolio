@@ -91,11 +91,6 @@
   position: relative;
 }
 
-.slider-content img:hover {
-  transform: scale(1.1);
-}
-
-
 
 @keyframes rotate {
   from{
