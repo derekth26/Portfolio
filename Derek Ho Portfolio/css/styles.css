@@ -595,21 +595,7 @@ a {
   padding-bottom: 2rem;
 }
 
-.zoom {
-  position: relative;
-  overflow: hidden;
-  display: inline-block;
-  width: 100%;
-  height: 100%;
-}
 
-.zoom img {
-  transition-duration: 0.5s !important;
-}
-.zoom img:hover {
-  transform: scale(1.2);
-  z-index: 0;
-}
 
 .chef ,
 .goat ,
@@ -622,7 +608,7 @@ a {
   
   border: 2px solid #3b86ff;
   border-radius: 10px;
-  color: white;
+  color: rgb(174, 171, 171);
   padding: 2.5rem;
 }
 
@@ -758,12 +744,6 @@ span:hover{
 }
 
 
-
-
-.zoom img {
-  max-width: 100%; /* Make images responsive */
-  height: auto; /* Maintain aspect ratio */
-}
 
 
 
