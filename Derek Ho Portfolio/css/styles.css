@@ -534,6 +534,12 @@ a {
   justify-content: center;
 }
 
+.aboutflex{
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
 
 
 
