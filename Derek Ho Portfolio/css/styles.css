@@ -1,13 +1,5 @@
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: inherit;
-}
-html {
-  font-size: 1rem;
-  box-sizing: border-box;
-}
+
 body {
   width: 100%;
   height: 100%;
@@ -36,7 +28,7 @@ h2{
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: transform 1s;
+    transition: transform 1s !important;
 }
 .slide > img{
     width: 100%;
@@ -82,7 +74,7 @@ button .fas{
     cursor: pointer;
 }
 .dot.active{
-background:#272727;
+background:white;
 }
 
 
