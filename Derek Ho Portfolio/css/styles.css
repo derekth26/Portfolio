@@ -1,9 +1,10 @@
 
 .slideshow{
-  margin: 0 auto;
+  padding-top: 20px;
   padding-top: 50px;
   height: 700px;
-  background: #444;
+
+  
   perspective: 1000px;
 }
 .content{
@@ -18,12 +19,12 @@
   width: 100%;
   position:absolute;
   float:right;
-  animation: rotate 15s infinite linear;
+  animation: rotate 15s infinite linear !important;
   transform-style: preserve-3d;
 }
 .slider-content:hover{
   cursor: pointer;
-  animation-play-state: paused;
+  animation-play-state: paused !important;
 }
 
 .slider-content figure{
