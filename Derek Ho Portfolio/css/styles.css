@@ -124,7 +124,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
   padding: 2rem;
 }
 .introbutton a:hover{
-  color: #276dde;
+  color: white;
 }
 
 .introbutton a {
@@ -132,7 +132,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
   display: inline-block;
   font-family: "Roboto Condensed", sans-serif;;
   padding: 15px 30px; /* Adjust padding to fit button */
-  color: #3b86ff;
+  color: #a5c9c7;
   background-color: black;
   text-decoration: none;
   text-transform: uppercase;
