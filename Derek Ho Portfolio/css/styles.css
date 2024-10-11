@@ -130,9 +130,8 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 .introbutton a {
   position: relative;
   display: inline-block;
-  font-family: "Roboto Condensed", sans-serif;;
   padding: 15px 30px; /* Adjust padding to fit button */
-  color: #7ec493;
+  color: #6f82b3;
   background-color: black;
   text-decoration: none;
   text-transform: uppercase;
