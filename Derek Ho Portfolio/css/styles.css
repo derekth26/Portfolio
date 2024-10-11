@@ -465,6 +465,7 @@ a {
 .aboutme h2 {
   text-align: center;
   font-size: 3rem;
+  margin-bottom: -30px;
   
 }
 .aboutme {
@@ -1109,12 +1110,18 @@ form textarea {
 
   .aboutme img{
 
-    margin-top: -20px;
+    margin-top: -30px;
 
   }
 
   .slideshow{
-    margin-top: 20px;
+    margin-top: 40px;
+    
+  }
+
+  #section3{
+    margin-top: -60px;
+
   }
 }
 
