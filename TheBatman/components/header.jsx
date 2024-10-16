@@ -1,77 +1,109 @@
-import { useState } from 'react';
-import logo from "../assets/logo.jpg"; // Assuming the logo path is correct
+import * as React from 'react';
+import PropTypes from 'prop-types';
+import AppBar from '@mui/material/AppBar';
+import Box from '@mui/material/Box';
+import CssBaseline from '@mui/material/CssBaseline';
+import Divider from '@mui/material/Divider';
+import Drawer from '@mui/material/Drawer';
+import IconButton from '@mui/material/IconButton';
+import List from '@mui/material/List';
+import ListItem from '@mui/material/ListItem';
+import ListItemButton from '@mui/material/ListItemButton';
+import ListItemText from '@mui/material/ListItemText';
+import MenuIcon from '@mui/icons-material/Menu';
+import Toolbar from '@mui/material/Toolbar';
+import Typography from '@mui/material/Typography';
+import Button from '@mui/material/Button';
 
-function Header() {
-  // State to handle menu visibility
-  const [isOpen, setIsOpen] = useState(false);
+const drawerWidth = 240;
+const navItems = ['Home', 'About', 'Contact'];
+
+function DrawerAppBar(props) {
+  const { window } = props;
+  const [mobileOpen, setMobileOpen] = React.useState(false);
+
+  const handleDrawerToggle = () => {
+    setMobileOpen((prevState) => !prevState);
+  };
+
+  const drawer = (
+    <Box onClick={handleDrawerToggle} sx={{ textAlign: 'center' }}>
+      <Typography variant="h6" sx={{ my: 2 }}>
+        MUI
+      </Typography>
+      <Divider />
+      <List>
+        {navItems.map((item) => (
+          <ListItem key={item} disablePadding>
+            <ListItemButton sx={{ textAlign: 'center' }}>
+              <ListItemText primary={item} />
+            </ListItemButton>
+          </ListItem>
+        ))}
+      </List>
+    </Box>
+  );
+
+  const container = window !== undefined ? () => window().document.body : undefined;
 
   return (
-    <nav className="bg-black p-4 font-p text-m">
-      <div className="container mx-auto flex justify-between items-center">
-        {/* Logo */}
-        <a href="#" className="navbar-brand">
-          <img src={logo} alt="logo" className="h-20 w-20 " />
-        </a>
-
-        {/* Hamburger Menu Button (only visible on small screens) */}
-        <button 
-          className="text-white md:hidden text-3xl" // hidden on medium and larger screens
-          onClick={() => setIsOpen(!isOpen)} // Toggle menu
+    <Box sx={{ display: 'flex' }}>
+      <CssBaseline />
+      <AppBar component="nav">
+        <Toolbar>
+          <IconButton
+            color="inherit"
+            aria-label="open drawer"
+            edge="start"
+            onClick={handleDrawerToggle}
+            sx={{ mr: 2, display: { sm: 'none' } }}
+          >
+            <MenuIcon />
+          </IconButton>
+          <Typography
+            variant="h6"
+            component="div"
+            sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' } }}
+          >
+            MUI
+          </Typography>
+          <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
+            {navItems.map((item) => (
+              <Button key={item} sx={{ color: '#fff' }}>
+                {item}
+              </Button>
+            ))}
+          </Box>
+        </Toolbar>
+      </AppBar>
+      <nav>
+        <Drawer
+          container={container}
+          variant="temporary"
+          open={mobileOpen}
+          onClose={handleDrawerToggle}
+          ModalProps={{
+            keepMounted: true, // Better open performance on mobile.
+          }}
+          sx={{
+            display: { xs: 'block', sm: 'none' },
+            '& .MuiDrawer-paper': { boxSizing: 'border-box', width: drawerWidth },
+          }}
         >
-          {isOpen ? '✖' : '☰'} {/* Shows "X" if menu is open, "☰" otherwise */}
-        </button>
-
-        {/* Links (visible on medium to large screens) */}
-        <ul className={`md:flex md:space-x-6 hidden text-white font-p ${isOpen ? 'block' : 'hidden'}`}>
-          <li>
-            <a href="#" className="block md:inline-block hover:text-lightgray transition duration-300">Home</a>
-          </li>
-          <li>
-            <a href="#synopsis" className="block md:inline-block hover:text-lightgray transition duration-300">Synopsis</a>
-          </li>
-          <li>
-            <a href="#crew" className="block md:inline-block hover:text-lightgray transition duration-300">Crew</a>
-          </li>
-          <li>
-            <a href="#cast" className="block md:inline-block hover:text-lightgray transition duration-300">Cast</a>
-          </li>
-          <li>
-            <a href="#specs" className="block md:inline-block hover:text-lightgray transition duration-300">Details</a>
-          </li>
-          <li>
-            <a href="#photos" className="block md:inline-block hover:text-lightgray transition duration-300"  >Photos</a>
-          </li>
-          
-        </ul>
-      </div>
-
-      {/* Mobile Menu (only visible on small screens, toggles when isOpen is true) */}
-      {isOpen && (
-        <div className="md:hidden">
-          <ul className="space-y-2 mt-4 text-white font-p text-center">
-            <li>
-              <a href="#" className="block hover:text-gray-400">Home</a>
-            </li>
-            <li>
-            <a href="#synopsis" className="block md:inline-block hover:text-gray-400">Synopsis</a>
-          </li>
-          <li>
-            <a href="#crew" className="block md:inline-block hover:text-gray-400">Crew</a>
-          </li>
-          <li>
-            <a href="#cast" className="block md:inline-block hover:text-gray-400">Cast</a>
-          </li>
-          <li>
-            <a href="#photos" className="block md:inline-block hover:text-gray-400">Photos</a>
-          </li>
-          <li>
-            <a href="#specs" className="block md:inline-block hover:text-gray-400">Details</a>
-          </li>
-          </ul>
-        </div>
-      )}
-    </nav>
+          {drawer}
+        </Drawer>
+      </nav>
+      
+    </Box>
   );
 }
 
-export default Header;
+DrawerAppBar.propTypes = {
+  /**
+   * Injected by the documentation to work in an iframe.
+   * You won't need it on your project.
+   */
+  window: PropTypes.func,
+};
+
+export default DrawerAppBar;
