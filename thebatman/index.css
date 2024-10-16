@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.banner{
+
+  background-image: url("./assets/banner.jpg");
+  width: 100%; /* Ensure it takes the full width */
+  height: 100vh; /* Set height as needed */
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: cover; /* Cover the entire banner area */
+  
+
+}
+
+
+
+
+
+
+
+
+
+
