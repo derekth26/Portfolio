@@ -2,7 +2,7 @@
 
 Here are a few projects of mine:
 
-[TRVL](https://trvlad.netlify.app/): A travel app built with React, Vite, and Node.js, featuring a sleek interface using MUI and CSS, allowing users to browse tours worldwide.
+[TheBatman](https://thebatmansite.netlify.app/): The Batman movie landing page built with React, Vite, and Node.js, featuring styling using MUI and Tailwind.
 
 [GoatKicks](https://dho9.dmitstudent.ca/wordpress/): An e-commerce site created with WordPress and WooCommerce, showcasing various footwear options for online shoppers.
 
