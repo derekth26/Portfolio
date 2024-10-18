@@ -551,13 +551,7 @@ a {
   z-index: 0;
 }
 
-.chef ,
-.goat ,
-.pokemon ,
-.catalogue ,
-.wireframe ,
-.trvl ,
-.todolist{
+.projects .fade{
   
   
   border: 2px solid #3b86ff;
@@ -567,13 +561,7 @@ a {
 }
 
 
-.chef a,
-.goat a,
-.pokemon a,
-.catalogue a,
-.wireframe a,
-.trvl a,
-.todolist a{
+.projects a{
   font-family: "Kanit", sans-serif;
   font-weight: 600;
   font-style: normal;
