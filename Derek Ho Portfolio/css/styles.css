@@ -2,7 +2,7 @@
 body {
 	background-color: #161616;
   background-image: url("../img/bg.jpg");
-  background-position: bottom right;
+  background-position: left;
  
 	height: 100%;
 	overflow-x: hidden;
@@ -692,6 +692,10 @@ a {
   to{
       transform: rotateY(360deg);
   }
+}
+
+#section2{
+  background-color: #1b2735;
 }
 .skills img {
   width: 100px;
