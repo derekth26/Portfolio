@@ -1,8 +1,8 @@
 
 body {
 	background-color: #161616;
-  background-image: url("../img/pexels-therato-3374210.jpg");
-  background-position: top left;
+  background-image: url("../img/pexels-therato-3374210\ \(2\).jpg");
+ 
 	height: 100%;
 	overflow-x: hidden;
 	margin: 0;
@@ -560,7 +560,7 @@ a {
   border-radius: 10px;
   color: white;
   padding: 2.5rem;
-  background-color: #161616;
+  
 }
 
 
