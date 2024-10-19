@@ -1,7 +1,7 @@
 
 body {
 	background-color: #161616;
-  background-image: url("../img/6939772.jpg");
+  background-image: url("../img/24.jpg");
 	height: 100%;
 	overflow-x: hidden;
 	margin: 0;
@@ -559,6 +559,7 @@ a {
   border-radius: 10px;
   color: white;
   padding: 2.5rem;
+  background-color: #1b2735;
 }
 
 
