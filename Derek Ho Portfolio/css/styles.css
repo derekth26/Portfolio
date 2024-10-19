@@ -2,7 +2,7 @@
 body {
 	background-color: #161616;
   background-image: url("../img/bg.jpg");
-  background-position: left;
+  background-position: bottom right;
  
 	height: 100%;
 	overflow-x: hidden;
@@ -694,9 +694,7 @@ a {
   }
 }
 
-#section2{
-  background-color: #1b2735;
-}
+
 .skills img {
   width: 100px;
   -webkit-mask-image: linear-gradient(45deg,#000 25%,rgba(0,0,0,.2) 50%,#000 75%);
