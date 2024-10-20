@@ -551,8 +551,7 @@ a {
   transition-duration: 0.5s !important;
 }
 .zoom img:hover {
-  transform: scale(1.2);
-  z-index: 0;
+  opacity: 0.2;
 }
 
 .projects .fade{
