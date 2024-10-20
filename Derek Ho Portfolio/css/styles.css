@@ -539,19 +539,12 @@ a {
 }
 
 
-.zoom {
-  position: relative;
-  overflow: hidden;
-  display: inline-block;
-  max-width: 100%; 
-  height: auto; 
-}
 
 .zoom img {
   transition-duration: 0.5s !important;
 }
 .zoom img:hover {
-  opacity: 0.2;
+  opacity: 0.4;
 }
 
 .projects .fade{
@@ -561,7 +554,7 @@ a {
   border-radius: 10px;
   color: white;
   padding: 2.5rem;
-  background-color: #233243;
+  
   
 }
 
