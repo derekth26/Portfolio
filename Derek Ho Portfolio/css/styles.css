@@ -1,7 +1,7 @@
 
 body {
 	background-color: #161616;
-  background-image: url("../img/magicpattern-starry-night-1729459631932.png");
+  background-image: url("../img/magicpattern-starry-night-1729459715188.png");
   
  
  
@@ -562,6 +562,7 @@ a {
   border-radius: 10px;
   color: white;
   padding: 2.5rem;
+  background-color: #233243;
   
 }
 
