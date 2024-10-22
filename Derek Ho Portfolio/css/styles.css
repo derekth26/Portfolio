@@ -557,7 +557,7 @@ a {
   border-radius: 10px;
   color: white;
   padding: 2.5rem;
-  background-image: linear-gradient(to bottom, #424242, #46454d, #4a4759, #4d4a65, #504d71);
+  background-image: radial-gradient(circle, #393939, #3f3e4c, #404460, #3d4a76, #32528c);
   
 }
 
