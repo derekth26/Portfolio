@@ -560,8 +560,8 @@ a {
   border: 2px solid #3b86ff;
   border-radius: 10px;
   color: white;
-  
-  background-image: radial-gradient(circle, #79797a, #62636a, #4b4f5a, #343b4a, #1b293b);
+  padding: 2rem;
+  background-color: #223242;
   display: flex;
   flex-direction: column;
   align-items: center;
