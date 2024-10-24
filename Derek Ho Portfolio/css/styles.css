@@ -546,6 +546,7 @@ a {
 
 .zoom img {
   transition-duration: 0.5s !important;
+  width: 100%;
 }
 .zoom img:hover {
   opacity: 0.5;
@@ -559,7 +560,7 @@ a {
   border: 2px solid #3b86ff;
   border-radius: 10px;
   color: white;
-  padding: 2.5rem;
+  
   background-image: radial-gradient(circle, #79797a, #62636a, #4b4f5a, #343b4a, #1b293b);
   display: flex;
   flex-direction: column;
