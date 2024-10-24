@@ -17,6 +17,10 @@ body {
   padding: 5rem;
   
 }
+
+.projects .introbutton a{
+  font-size: 1.25rem;
+}
 .introbutton a:hover{
   color: #828283;
   transition-duration: 0.5s !important;
