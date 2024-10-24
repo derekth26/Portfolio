@@ -225,9 +225,8 @@ nav ul li a::after {
 }
 
 .overlay {
-  background: rgb(63,94,251);
-  background-color: #0a0a0b;
- 
+  background-image: url("../img/bg.png");
+
   position: fixed;
   right: 0;
   left: 0;
