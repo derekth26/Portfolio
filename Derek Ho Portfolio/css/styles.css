@@ -1042,10 +1042,7 @@ form textarea {
     font-size: 5rem;
   }
   
-  a:hover{
-    color: #828283;
-  transition-duration: 0.5s !important;
-  }
+
 
   .overlay.menu-open,
   nav.menu-open {
