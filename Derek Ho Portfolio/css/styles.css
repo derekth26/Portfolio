@@ -206,7 +206,11 @@ nav ul li a:last-child {
   margin-right: 0;
 }
 
+nav ul li a:hover{
+  color: #828283;
+  transition-duration: 0.5s !important;
 
+}
 
 .overlay {
   background-image: url("../img/bg.png");
