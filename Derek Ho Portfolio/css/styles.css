@@ -320,6 +320,14 @@ h3 {
   font-style: normal;
 }
 
+h4{
+  font-family: "Kanit", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 3rem;
+  padding-bottom: 2rem;
+}
+
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -538,15 +546,11 @@ a {
   padding-bottom: 5.5rem;
 }
 
-.projects div {
-  padding-bottom: 2rem;
-}
-
-
 
 .zoom img {
   transition-duration: 0.5s !important;
   width: 100%;
+  padding-bottom: 1rem;
 }
 .zoom img:hover {
   opacity: 0.5;
