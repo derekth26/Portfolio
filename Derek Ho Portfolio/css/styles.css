@@ -553,9 +553,6 @@ a {
 }
 
 
-.description{
-  text-align: center;
-}
 
 .projects .fade{
   
@@ -898,6 +895,7 @@ form textarea {
 .icons{
    display: flex;
    width: 100%;
+   text-align: center;
 }
 .fade .icons{
   width: 80px;
