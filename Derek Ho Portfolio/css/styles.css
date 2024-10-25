@@ -536,7 +536,9 @@ a {
   opacity: 1; /* Fully visible when scrolled into view */
 }
 
-
+#section2{
+  margin-bottom: 4rem;
+}
 
 #section3 h3 {
   
@@ -588,7 +590,7 @@ a {
   font-weight: 600;
   font-style: normal;
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 60px;
   
 }
 
