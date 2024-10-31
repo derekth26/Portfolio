@@ -536,7 +536,20 @@ a {
 }
 
 #section4{
-  margin-top: 100px;
+  margin-top: 200px;
+}
+.volunteer{
+  display: flex;
+  gap:20px;
+  justify-content: center;
+}
+
+.volunteer .details{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 40%
 }
 
 
@@ -912,19 +925,7 @@ form textarea {
 
 }
 
-.volunteer{
-  display: flex;
-  gap:20px;
-  justify-content: center;
-}
 
-.volunteer .details{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 40%
-}
 
 @import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
 
