@@ -850,7 +850,7 @@ form textarea {
   min-height: 150px;
   resize: vertical;
 }
-.projects {
+.projects, .case {
   display: flex;
   flex-wrap: wrap;
   gap: 25px;
