@@ -922,6 +922,8 @@ form textarea {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+  width: 40%
 }
 
 @import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
