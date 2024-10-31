@@ -62,7 +62,7 @@ body {
   right: 0;
   width: 3px;
   height: 100%;
-  background: linear-gradient(90deg, hsla(242, 58%, 73%, 1) 0%, hsla(157, 72%, 82%, 1) 100%);
+  background: linear-gradient(90deg, hsla(239, 100%, 67%, 1) 0%, hsla(187, 100%, 89%, 1) 100%);
 
   animation: animate2 1.5s linear infinite !important; /* Reduced duration */
   animation-delay: 0.5s !important; /* Adjusted delay */
@@ -73,7 +73,7 @@ body {
   right: 0;
   width: 100%;
   height: 3px;
-  background: linear-gradient(90deg, hsla(242, 58%, 73%, 1) 0%, hsla(157, 72%, 82%, 1) 100%);
+  background: linear-gradient(90deg, hsla(239, 100%, 67%, 1) 0%, hsla(187, 100%, 89%, 1) 100%);
 
   animation: animate3 1.5s linear infinite !important; /* Reduced duration */
 }
