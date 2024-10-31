@@ -535,6 +535,10 @@ a {
   padding-bottom: 5.5rem;
 }
 
+#section4{
+  margin-top: 20px;
+}
+
 
 .zoom img {
   transition-duration: 0.5s !important;
@@ -911,6 +915,7 @@ form textarea {
 .volunteer{
   display: flex;
   gap:20px;
+  justify-content: center;
 }
 
 .volunteer .details{
