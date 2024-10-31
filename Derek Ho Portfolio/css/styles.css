@@ -32,7 +32,8 @@ body {
   padding: 15px 30px;
   color: white;
   
-  background: linear-gradient(90deg, hsla(239, 100%, 67%, 1) 0%, hsla(187, 100%, 89%, 1) 100%);
+  background: linear-gradient(90deg, hsla(180, 13%, 58%, 1) 0%, hsla(335, 16%, 61%, 1) 100%);
+
 
   border-radius: 10px;
   text-decoration: none;
