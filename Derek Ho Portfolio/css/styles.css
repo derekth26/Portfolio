@@ -762,52 +762,6 @@ span:hover{
 
 
 
-
-
-
-
-.read-more-target,
-.read-more-target2,
-.read-more-target3,
-.read-more-target4,
-.read-more-target5,
-.read-more-target6,
-.read-more-target7,
-.read-more-trigger_opened,
-.read-more-trigger_opened2,
-.read-more-trigger_opened3,
-.read-more-trigger_opened4,
-.read-more-trigger_opened5,
-.read-more-trigger_opened6,
-.read-more-trigger_opened7 {
-  display: none;
-}
-.read-more-state:checked ~ .read-more-wrap .read-more-target,
-.read-more-state2:checked ~ .read-more-wrap2 .read-more-target2,
-.read-more-state3:checked ~ .read-more-wrap3 .read-more-target3,
-.read-more-state4:checked ~ .read-more-wrap4 .read-more-target4,
-.read-more-state5:checked ~ .read-more-wrap5 .read-more-target5,
-.read-more-state6:checked ~ .read-more-wrap6 .read-more-target6,
-.read-more-state7:checked ~ .read-more-wrap7 .read-more-target7,
-.read-more-state:checked ~ .read-more-trigger_opened,
-.read-more-state2:checked ~ .read-more-trigger_opened2,
-.read-more-state3:checked ~ .read-more-trigger_opened3,
-.read-more-state4:checked ~ .read-more-trigger_opened4,
-.read-more-state5:checked ~ .read-more-trigger_opened5,
-.read-more-state6:checked ~ .read-more-trigger_opened6,
-.read-more-state7:checked ~ .read-more-trigger_opened7 {
-  display: block;
-}
-.read-more-state:checked ~ .read-more-trigger_closed,
-.read-more-state2:checked ~ .read-more-trigger_closed2,
-.read-more-state3:checked ~ .read-more-trigger_closed3,
-.read-more-state4:checked ~ .read-more-trigger_closed4,
-.read-more-state5:checked ~ .read-more-trigger_closed5,
-.read-more-state6:checked ~ .read-more-trigger_closed6,
-.read-more-state7:checked ~ .read-more-trigger_closed7 {
-  display: none;
-}
-
 label {
   font-family: "Roboto Condensed", sans-serif;
   font-optical-sizing: auto;
