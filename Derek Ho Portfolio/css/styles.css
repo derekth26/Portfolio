@@ -562,7 +562,9 @@ a {
   opacity: 0.5;
 }
 
-
+.case{
+  margin-bottom: 25px;
+}
 
 .projects .fade, .case .fade{
   
