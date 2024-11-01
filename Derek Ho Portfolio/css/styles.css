@@ -18,9 +18,7 @@ body {
   
 }
 
-.projects .introbutton a{
-  font-size: 1.25rem;
-}
+
 .introbutton a:hover{
   color: #828283;
   transition-duration: 0.5s !important;
@@ -40,6 +38,10 @@ body {
   box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.4);
   margin-top: 20px;
   font-family: "Kanit", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 2rem;
+  font-size: 1.25rem;
 }
 
 .introbutton a span {
@@ -659,14 +661,6 @@ a {
   flex-direction: column;
   align-items: center;
   
-}
-
-
-.projects a{
-  font-family: "Kanit", sans-serif;
-  font-weight: 600;
-  font-style: normal;
-  font-size: 2rem;
 }
 
 
