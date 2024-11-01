@@ -1116,6 +1116,13 @@ form textarea {
     padding: 10px;
     font-size: 1rem;
   }
+
+  .volunteer{
+    flex-wrap: wrap;
+  }
+  .volunteer .details{
+    width: 100%;
+  }
 }
 
 
