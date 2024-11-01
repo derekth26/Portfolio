@@ -601,18 +601,18 @@ h2 {
   margin-bottom: 10px;
 }
 
-p {
+.case-study-section p {
   font-size: 1em;
   color: #666;
 }
 
-.design-images {
+.case-study-section .design-images {
   display: flex;
   gap: 10px;
   margin: 10px 0;
 }
 
-.design-images img {
+. .case-study-section .design-images img {
   width: 100%;
   max-width: 300px;
   height: auto;
@@ -627,7 +627,7 @@ p {
   margin-top: 20px;
 }
 
-.project-link {
+ .case-study-section .project-link {
   text-decoration: none;
   color: white;
   background-color: #4CAF50;
@@ -636,7 +636,7 @@ p {
   transition: background-color 0.3s ease;
 }
 
-.project-link:hover {
+ .case-study-section  .project-link:hover {
   background-color: #45a049;
 }
 
