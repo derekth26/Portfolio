@@ -631,14 +631,14 @@ a {
 .project-link {
   text-decoration: none;
   color: white;
-  background-color: #4CAF50;
+  background-color: #223242;
   padding: 10px 20px;
   border-radius: 5px;
   transition: background-color 0.3s ease;
 }
 
 .project-link:hover {
-  background-color: #45a049;
+  background-color: #31465b;
 }
 
 
