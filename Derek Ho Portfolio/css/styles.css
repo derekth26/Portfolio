@@ -599,6 +599,7 @@ a {
   background-color: #fff;
   border: 1px solid #ddd;
   border-radius: 8px;
+  width: 100%;
 }
 
 #case-study h3 {
