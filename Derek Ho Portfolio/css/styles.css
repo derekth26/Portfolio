@@ -1153,6 +1153,13 @@ form textarea {
     margin-top: -50px;
 
   }
+
+  .volunteer{
+    flex-wrap: wrap;
+  }
+  .volunteer .details{
+    width: 100%;
+  }
 }
 
 @media (max-width: 768px) {
@@ -1193,12 +1200,7 @@ form textarea {
     font-size: 1rem;
   }
 
-  .volunteer{
-    flex-wrap: wrap;
-  }
-  .volunteer .details{
-    width: 100%;
-  }
+ 
 }
 
 
