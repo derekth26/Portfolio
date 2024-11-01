@@ -625,7 +625,9 @@ h2 {
   gap: 20px;
   margin-top: 20px;
 }
-
+.case-header{
+  padding: 2rem;
+}
 .project-link {
   text-decoration: none;
   color: white;
