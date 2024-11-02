@@ -572,6 +572,10 @@ a {
   margin-top: 50px;
   margin-bottom: 100px;
 }
+
+.case .flex{
+  display: flex;
+}
 #case-study {
   font-family: Arial, sans-serif;
   padding: 40px;
