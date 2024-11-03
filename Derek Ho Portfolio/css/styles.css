@@ -42,6 +42,7 @@ body {
   font-style: normal;
   font-size: 2rem;
   font-size: 1.25rem;
+  
 }
 
 .introbutton a span {
@@ -89,6 +90,7 @@ body {
   animation: animate4 1.5s linear infinite !important; /* Reduced duration */
   animation-delay: 0.5s !important; /* Adjusted delay */
 }
+
 
 /* Keyframe animations for smooth movement */
 @keyframes animate1 {
@@ -568,16 +570,9 @@ a {
   opacity: 0.5;
 }
 
-.case{
-  margin-top: 50px;
-  margin-bottom: 100px;
+.block-item-text{
+  flex-grow: 1;
 }
-
-.case .flex{
-  display: flex;
-}
-
-
 
 .projects .fade, .case .fade{
   
@@ -857,6 +852,11 @@ form textarea {
   min-height: 150px;
   resize: vertical;
 }
+
+.case{
+
+  margin-bottom: 50px;
+  }
 .projects, .case {
   display: flex;
   flex-wrap: wrap;
@@ -881,12 +881,8 @@ form textarea {
 
 
 
-/* For larger screens: two divs per row */
-.projects  {
-  flex: 0 1 calc(50% - 25px); /* Take up 50% of the width minus the gap */
-  box-sizing: border-box;
-}
-.projects {
+
+.projects, .case {
   display: flex;
   flex-wrap: wrap;
   gap: 25px;
@@ -894,7 +890,7 @@ form textarea {
 }
 
 /* For larger screens: two divs per row */
-.projects .fade {
+.projects .fade, .case .fade{
   flex: 0 1 calc(50% - 25px); /* Take up 50% of the width minus the gap */
   box-sizing: border-box;
 }
@@ -905,31 +901,6 @@ form textarea {
   display: flex;
   flex-direction: column;
   justify-content: center;
-}
-
-.projects label{
-  color: #3b86ff;
-
-}
-
-.projects label:hover{
-  cursor: pointer;
-  color: #6981c2;
-}
-
-.hover{
-  color: #3b86ff;
-  
-  
-}
-.hover img{
-  width: 50px;
-  
-}
-.hover:hover{
-  color: #6981c2;
-
-
 }
 
 
@@ -997,7 +968,7 @@ form textarea {
 
 /* Responsive for smaller screens */
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1100px) {
   .menu-toggle {
     display: block;
   }
@@ -1050,13 +1021,18 @@ form textarea {
   nav ul li:nth-child(4) {
     animation-delay: 2.5s !important;
   }
+  nav ul li:nth-child(5) {
+    animation-delay: 3s !important;
+  }
 
-  .projects {
+ 
+
+  .projects, .case {
     flex-direction: column; /* Stack items vertically */
     margin-top: -20px;
   }
 
-  .projects  {
+  .projects, .case  {
     width: 100%; /* Full width for each div */
   }
 
@@ -1088,6 +1064,8 @@ form textarea {
   .volunteer .details{
     width: 100%;
   }
+
+ 
 }
 
 @media (max-width: 768px) {
