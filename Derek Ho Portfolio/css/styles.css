@@ -602,25 +602,13 @@ a {
   margin-bottom: 2rem;
 }
 
-.projects {
-  z-index: -1; /* Ensure it's at the default stacking context */
-}
 
 .modal {
-  z-index: 9999; /* Ensure modal has a sufficiently high z-index */
+  z-index: 200000;
 }
 
 
-.modal.is-active {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh; /* Full viewport height */
-}
 
-.modal-background {
-  height: 100vh; /* Full viewport height */
-}
 
 .slideshow  h3 {
   font-size: 3rem;
