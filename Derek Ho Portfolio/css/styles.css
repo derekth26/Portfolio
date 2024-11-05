@@ -1,7 +1,7 @@
 
 body {
 	
-  background-image: url("../img/bg.png");
+  
   
  
  
@@ -15,6 +15,7 @@ body {
 .intro{
   
   padding: 5rem;
+  background-image: url("../img/bg.png");
   
 }
 
