@@ -332,9 +332,7 @@ h5{
 
 }
 
-.box p{
-  margin-bottom: 2rem;
-}
+
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -600,6 +598,14 @@ a {
   
 }
 
+.box p{
+  margin-bottom: 2rem;
+}
+
+.modal-background{
+  height: 100vh;
+  
+}
 
 
 .slideshow  h3 {
