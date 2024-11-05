@@ -602,9 +602,12 @@ a {
   margin-bottom: 2rem;
 }
 
-.modal{
-  z-index: 100000;
-  
+.projects {
+  z-index: -1; /* Ensure it's at the default stacking context */
+}
+
+.modal {
+  z-index: 9999; /* Ensure modal has a sufficiently high z-index */
 }
 
 
