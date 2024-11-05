@@ -608,6 +608,17 @@ a {
 }
 
 
+.modal.is-active {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Full viewport height */
+}
+
+.modal-background {
+  height: 100vh; /* Full viewport height */
+}
+
 .slideshow  h3 {
   font-size: 3rem;
   font-family: "Kanit", sans-serif;
