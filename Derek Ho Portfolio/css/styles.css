@@ -616,7 +616,8 @@ a {
   justify-content: center;
 }
 
-.js-modal-trigger{
+.box{
+  background-color: #223241;
   
 }
 
