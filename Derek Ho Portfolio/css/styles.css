@@ -602,8 +602,8 @@ a {
   margin-bottom: 2rem;
 }
 
-.modal-background{
-  height: 100vh;
+.modal{
+  z-index: 100000;
   
 }
 
