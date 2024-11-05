@@ -323,7 +323,18 @@ h4{
   font-size: 2rem;
   padding-bottom: 2rem;
 }
+h5{
+  font-family: "Kanit", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 1.5rem;
+  padding-bottom: 2rem;
 
+}
+
+.box p{
+  margin-bottom: 2rem;
+}
 @keyframes fadeIn {
   from {
     opacity: 0;
