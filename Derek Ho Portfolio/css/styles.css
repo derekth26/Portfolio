@@ -180,7 +180,9 @@ nav {
 nav ul {
   display: flex;
 }
-
+nav {
+  width: 100%; /* Ensures the nav takes full width */
+}
 nav ul li {
   list-style: none;
   transform: translateX(100rem);
