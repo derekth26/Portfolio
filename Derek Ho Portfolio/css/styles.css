@@ -17,7 +17,10 @@ body {
   padding: 5rem;
   
 }
-button{
+.js-modal-trigger{
+  font-family: "Kanit", sans-serif;
+  font-weight: 600;
+  font-style: normal;
   font-size: 1.25rem;
 }
 
@@ -43,7 +46,6 @@ button{
   font-family: "Kanit", sans-serif;
   font-weight: 600;
   font-style: normal;
-  
   font-size: 1.25rem;
   
 }
