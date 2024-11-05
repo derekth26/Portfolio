@@ -1,6 +1,6 @@
 
 body {
-	background-color: #161616;
+	
   background-image: url("../img/bg.png");
   
  
@@ -618,8 +618,12 @@ a {
 
 .box{
   background-color: #223241;
-  color: white;
+ color: white;
   
+}
+
+.box img{
+  margin-bottom: 1rem;
 }
 
 
