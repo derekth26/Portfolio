@@ -569,7 +569,9 @@ a {
   justify-content: center;
   width: 40%
 }
-
+.volunteer .block-item-text{
+  flex: 0 0 auto;
+}
 
 
 .zoom img {
