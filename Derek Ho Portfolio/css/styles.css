@@ -570,11 +570,11 @@ a {
 .projects .fade, .case .fade{
   
   
-  border: 2px solid #3b86ff;
+  border: 2px solid white;
   border-radius: 10px;
   color: white;
   padding: 2rem;
-  background: linear-gradient(90deg, hsla(235, 100%, 78%, 1) 0%, hsla(222, 77%, 33%, 1) 100%);
+  
   display: flex;
   flex-direction: column;
   align-items: center;
