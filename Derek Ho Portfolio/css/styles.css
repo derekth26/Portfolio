@@ -770,7 +770,8 @@ a {
 
 
 span{
-  color: #847195;
+  color: white;
+  background-color: black;
   font-size: 1.3rem;
   border-radius: 5px;
   padding: 2px;
