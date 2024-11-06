@@ -926,7 +926,7 @@ form textarea {
 	width: 100%;
 	height: 100%;
 	position: fixed;
-	background: black;
+	background: linear-gradient(90deg, hsla(235, 100%, 78%, 1) 0%, hsla(222, 77%, 33%, 1) 100%);
   height: 100%;
 	z-index: 5000;
 	.txt{
