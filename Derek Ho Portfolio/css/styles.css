@@ -1,14 +1,25 @@
 
 body {
-	
-  background-image: url("../img/bg.png");
-  
- 
- 
-	height: 100%;
+	background: linear-gradient(90deg, hsla(260, 28%, 53%, 1) 0%, hsla(170, 42%, 71%, 1) 100%);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite !important;
+	height: 100vh;
+
 	overflow-x: hidden;
 	margin: 0;
 	padding: 0;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
 
 
