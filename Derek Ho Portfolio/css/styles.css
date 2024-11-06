@@ -1,8 +1,6 @@
 
 body {
-	
-background: linear-gradient(90deg, hsla(208, 33%, 21%, 1) 0%, hsla(211, 36%, 46%, 1) 100%);
-
+	background: linear-gradient(90deg, hsla(235, 100%, 78%, 1) 0%, hsla(222, 77%, 33%, 1) 100%);
 	background-size: 400% 400%;
 	animation: gradient 15s ease infinite !important;
 	height: 100%;
