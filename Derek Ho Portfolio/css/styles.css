@@ -1012,24 +1012,6 @@ form textarea {
     opacity: 1;
   }
 
-  nav ul li:nth-child(1) {
-    animation-delay: 1s !important;
-  }
-  
-  nav ul li:nth-child(2) {
-    animation-delay: 1.5s !important;
-  }
-  
-  nav ul li:nth-child(3) {
-    animation-delay: 2s !important;
-  }
-  
-  nav ul li:nth-child(4) {
-    animation-delay: 2.5s !important;
-  }
-  nav ul li:nth-child(5) {
-    animation-delay: 3s !important;
-  }
 
  
 
