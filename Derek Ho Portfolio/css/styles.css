@@ -995,12 +995,11 @@ form textarea {
   nav ul li a {
     margin: 0;
     font-size: 1.5rem;
-    animation-delay: 5s !important;
+    
   }
 
   .brand {
     font-size: 5rem;
-    animation-delay: 5s !important;
   }
   
 
