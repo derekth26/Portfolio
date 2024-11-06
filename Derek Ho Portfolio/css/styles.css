@@ -216,7 +216,7 @@ nav ul li a:hover{
 }
 
 .overlay {
-  background-image: url("../img/bg.png");
+  background: linear-gradient(90deg, hsla(235, 100%, 78%, 1) 0%, hsla(222, 77%, 33%, 1) 100%);
 
   position: fixed;
   right: 0;
