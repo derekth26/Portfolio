@@ -34,7 +34,7 @@ body {
 
 
 .introbutton a:hover{
-  color: #aaaaac;
+  color: #828283;
   transition-duration: 0.5s !important;
 }
 
@@ -570,11 +570,11 @@ a {
 .projects .fade, .case .fade{
   
   
-  border: 2px solid white;
+  border: 2px solid #3b86ff;
   border-radius: 10px;
   color: white;
   padding: 2rem;
-  
+  background-color: #223242;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -774,7 +774,7 @@ a {
 
 
 span{
-  color: #c04bff;
+  color: #3b86ff;
   font-size: 1.3rem;
   border-radius: 5px;
   padding: 2px;
