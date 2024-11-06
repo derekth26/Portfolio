@@ -15,7 +15,6 @@ body {
 .intro{
   
   padding: 5rem;
-  background-color: beige;
   
   
   
@@ -134,7 +133,7 @@ body {
 
 
 header {
-  background-color: #223242;
+  background-color: none;
   
 }
 
