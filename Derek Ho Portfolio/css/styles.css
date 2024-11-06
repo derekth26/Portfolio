@@ -1,7 +1,7 @@
 
 body {
 	
-  
+  background-image: url("../img/bg.png");
   
  
  
@@ -15,7 +15,8 @@ body {
 .intro{
   
   padding: 5rem;
-  background-image: url("../img/bg.png");
+  
+  
   
 }
 
@@ -93,42 +94,7 @@ body {
 }
 
 
-/* Keyframe animations for smooth movement */
-@keyframes animate1 {
-  0% {
-      transform: translateX(-100%);
-  }
-  100% {
-      transform: translateX(100%);
-  }
-}
 
-@keyframes animate2 {
-  0% {
-      transform: translateY(-100%);
-  }
-  100% {
-      transform: translateY(100%);
-  }
-}
-
-@keyframes animate3 {
-  0% {
-      transform: translateX(100%);
-  }
-  100% {
-      transform: translateX(-100%);
-  }
-}
-
-@keyframes animate4 {
-  0% {
-      transform: translateY(100%);
-  }
-  100% {
-      transform: translateY(-100%);
-  }
-}
 
 
 header {
