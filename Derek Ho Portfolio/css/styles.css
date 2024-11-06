@@ -177,6 +177,7 @@ nav {
   opacity: 0; /* make things invisible upon start */
   animation: fadeIn ease-in 1 !important;
   animation-fill-mode: forwards !important;
+  animation-delay: 5s !important;
   animation-duration: 1s !important;
 }
 
@@ -193,6 +194,7 @@ nav ul li a {
   opacity: 0; /* make things invisible upon start */
   animation: fadeIn ease-in 1 !important;
   animation-fill-mode: forwards !important;
+  animation-delay: 5s !important;
   animation-duration: 1s !important;
 }
 
@@ -995,11 +997,13 @@ form textarea {
   nav ul li a {
     margin: 0;
     font-size: 1.5rem;
+    animation-delay: 0s !important;
     
   }
 
   .brand {
     font-size: 5rem;
+    animation-delay: 0s !important;
   }
   
 
