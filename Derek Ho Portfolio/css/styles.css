@@ -522,6 +522,7 @@ a {
 
 #section2{
   margin-bottom: 4rem;
+  padding: 0 !important;
 }
 
 #section3 h3 {
@@ -628,7 +629,7 @@ a {
 
 .slideshow{
  
-  padding: 0 !important;
+  
   height: 700px;
   perspective: 1000px;
   max-width: 100%;
