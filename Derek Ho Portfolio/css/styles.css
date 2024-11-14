@@ -918,10 +918,18 @@ form textarea {
   justify-content: center;
 }
 
-/* For larger screens: two divs per row */
-.projects .fade, .case .fade{
-  flex: 0 1 calc(50% - 25px); /* Take up 50% of the width minus the gap */
-  box-sizing: border-box;
+
+
+@media (max-width: 768px) {
+  .projects {
+    grid-template-columns: repeat(2, 1fr); /* 2 items per row on smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .projects {
+    grid-template-columns: 1fr; /* 1 item per row on very small screens */
+  }
 }
 
 
