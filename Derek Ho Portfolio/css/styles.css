@@ -1163,6 +1163,14 @@ form textarea {
   .wrapper h1{
     font-size: 4.5rem;
   }
+  p{
+    font-size: 1.2rem;
+  }
+
+  .introbutton a{
+    font-size: 1.2rem;
+  }
+
 }
 
 
