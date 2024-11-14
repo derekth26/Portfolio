@@ -296,14 +296,14 @@ h4{
   font-family: "Kanit", sans-serif;
   font-weight: 600;
   font-style: normal;
-  font-size: 2rem;
+  font-size: 1.5rem;
   padding-bottom: 2rem;
 }
 h5{
   font-family: "Kanit", sans-serif;
   font-weight: 600;
   font-style: normal;
-  font-size: 1.5rem;
+  font-size: 1rem;
   padding-bottom: 2rem;
 
 }
@@ -460,7 +460,7 @@ a {
 
 .aboutme h2 {
   text-align: center;
-  font-size: 3rem;
+  font-size: 2rem;
   
   
 }
