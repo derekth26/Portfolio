@@ -913,9 +913,26 @@ form textarea {
 
 .projects, .case {
   display: flex;
-  flex-wrap: wrap;
-  gap: 25px;
-  justify-content: center;
+  flex-wrap: wrap; /* Allows wrapping of items to the next line */
+  gap: 25px; /* Adds space between items */
+}
+
+.projects .fade, .case .fade {
+  flex: 0 1 calc(33.333% - 25px); /* Take up 33.333% of the width minus the gap */
+  box-sizing: border-box;
+}
+
+/* Optional: responsive design for smaller screens */
+@media (max-width: 768px) {
+  .projects .fade, .case .fade {
+    flex: 0 1 calc(50% - 25px); /* 2 items per row on smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .projects .fade, .case .fade {
+    flex: 0 1 100%; /* 1 item per row on very small screens */
+  }
 }
 
 
