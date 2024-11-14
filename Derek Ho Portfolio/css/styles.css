@@ -234,7 +234,6 @@ nav ul li a:hover{
 main {
   position: relative;
   z-index: 101;
-  padding: 20px;
   color: white;
   max-width: 100%;
 }
