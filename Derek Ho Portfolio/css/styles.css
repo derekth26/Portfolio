@@ -920,18 +920,6 @@ form textarea {
 
 
 
-@media (max-width: 768px) {
-  .projects {
-    grid-template-columns: repeat(2, 1fr); /* 2 items per row on smaller screens */
-  }
-}
-
-@media (max-width: 480px) {
-  .projects {
-    grid-template-columns: 1fr; /* 1 item per row on very small screens */
-  }
-}
-
 
 
 .wireframe{
