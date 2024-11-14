@@ -520,7 +520,10 @@ a {
 .fade-visible img {
   opacity: 1; /* Fully visible when scrolled into view */
 }
+#section1 h2{
+  margin: auto 0;
 
+}
 #section2{
   margin-bottom: 4rem;
   padding: 0 !important;
