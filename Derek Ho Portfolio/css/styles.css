@@ -535,6 +535,10 @@ a {
 #section4{
   margin-top: 150px;
 }
+
+#section4 h3{
+  font-size: 2.5rem;
+}
 .volunteer{
   display: flex;
   gap:50px;
@@ -781,7 +785,7 @@ a {
 span{
   color: black;
   background-color: white;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   border-radius: 5px;
   padding: 2px;
   -webkit-mask-image: linear-gradient(45deg,#000 25%,rgba(0,0,0,.2) 50%,#000 75%);
@@ -1150,7 +1154,7 @@ form textarea {
 
 @media (min-width:800px){
   .wrapper h1{
-    font-size: 5rem;
+    font-size: 4.5rem;
   }
 }
 
