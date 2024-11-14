@@ -284,6 +284,10 @@ main {
   
 }
 
+.projects h3{
+  font-size: 2.5rem;
+}
+
 h1,
 h2,
 h3 {
@@ -605,7 +609,7 @@ a {
 
 
 .slideshow  h3 {
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-family: "Kanit", sans-serif;
   font-weight: 600;
   font-style: normal;
@@ -752,7 +756,7 @@ a {
 }
 
 .contact h3 {
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-family: "Kanit", sans-serif;
   font-weight: 600;
   font-style: normal;
