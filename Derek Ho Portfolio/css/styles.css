@@ -293,6 +293,7 @@ h3 {
   font-family: "Kanit", sans-serif;
   font-weight: 600;
   font-style: normal;
+  text-shadow: 5px 5px 5px rgba(0,0,0,0.5);
 }
 
 h4{
@@ -301,6 +302,7 @@ h4{
   font-style: normal;
   font-size: 1.5rem;
   padding-bottom: 2rem;
+  text-shadow: 5px 5px 5px rgba(0,0,0,0.5);
 }
 h5{
   font-family: "Kanit", sans-serif;
@@ -308,6 +310,7 @@ h5{
   font-style: normal;
   font-size: 1rem;
   padding-bottom: 2rem;
+  text-shadow: 5px 5px 5px rgba(0,0,0,0.5);
 
 }
 
@@ -1035,6 +1038,7 @@ form textarea {
 
   nav ul {
     flex-direction: column;
+    
   }
 
 
@@ -1042,6 +1046,7 @@ form textarea {
     margin: 0;
     font-size: 1.5rem;
     animation-delay: 0s !important;
+    
     
   }
 
