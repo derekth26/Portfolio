@@ -554,9 +554,10 @@ a {
   
 }
 .aboutme {
-  margin-top: 170px;
+  
   display: flex;
   justify-content: center;
+  height: 300px;
   
 }
 
