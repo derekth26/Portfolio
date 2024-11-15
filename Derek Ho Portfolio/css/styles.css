@@ -623,9 +623,7 @@ a {
   opacity: 1; /* Fully visible when scrolled into view */
 }
 
-#section1{
-  height: 300px;
-}
+
 #section1 h2{
   margin-bottom: -100px;
 
