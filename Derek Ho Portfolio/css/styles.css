@@ -618,7 +618,9 @@ a {
 .fade-visible img {
   opacity: 1; /* Fully visible when scrolled into view */
 }
-
+#section1{
+  margin-top: -100px;
+}
 
 #section1 h2{
   margin-bottom: -100px;
