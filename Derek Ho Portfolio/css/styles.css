@@ -464,6 +464,7 @@ a {
 .aboutme h2 {
   text-align: center;
   font-size: 2rem;
+ padding-bottom: 2rem;
   
   
 }
@@ -471,6 +472,10 @@ a {
   margin-top: 170px;
   display: flex;
   justify-content: center;
+}
+
+.aboutme p{
+  margin-top: -60px;
 }
 
 
@@ -790,7 +795,7 @@ a {
 span{
   color: black;
   background-color: white;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   border-radius: 5px;
   padding: 2px;
   -webkit-mask-image: linear-gradient(45deg,#000 25%,rgba(0,0,0,.2) 50%,#000 75%);
