@@ -1034,6 +1034,7 @@ form textarea {
     align-items: start;
     height: 100vh;
     text-align: left;
+    
   }
 
   nav ul {
@@ -1047,6 +1048,7 @@ form textarea {
     font-size: 1.5rem;
     animation-delay: 0s !important;
     text-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+    
     
     
   }
