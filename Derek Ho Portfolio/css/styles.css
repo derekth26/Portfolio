@@ -1315,19 +1315,11 @@ form textarea {
  
 }
 
-@media (max-width:1020px){
- .wrapper h1{
-  font-size: 1rem;
 
- }
- header h3{
-  font-size: 1rem;
- }
-}
 
 @media (min-width:800px){
   .wrapper h1{
-    font-size: 4rem;
+    font-size: 2rem;
     
   }
 
@@ -1338,7 +1330,7 @@ form textarea {
 
 
   .fade-in h3{
-    font-size: 2rem;
+    font-size: 1rem;
 
   }
   .fade-in p{
