@@ -558,7 +558,7 @@ a {
   
   display: flex;
   justify-content: center;
-  height: 470px;
+  height: 570px;
   
 }
 
@@ -630,8 +630,10 @@ a {
   height: 1050px;
   background-image: url('../img/banner.jpg');
   background-position: center;
+  margin-top:5px ;
 }
 #section3{
+  
   padding-top: 100px;
   background-color: white;
 
