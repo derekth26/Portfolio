@@ -610,7 +610,9 @@ a {
   opacity: 1; /* Fully visible when scrolled into view */
 }
 
-
+#section1{
+  height: 640px;
+}
 #section1 h2{
   margin-bottom: -100px;
 
@@ -619,8 +621,8 @@ a {
   
   padding-right: 0 !important;
   padding-left: 0 !important;
-  padding-top: 150px;
-  height: 750px;
+  padding-top: 220px;
+  height: 1000px;
   background-image: url('../img/banner.jpg');
   background-position: center;
   margin-top:5px ;
