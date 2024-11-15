@@ -2,6 +2,7 @@
   position: relative;
   z-index: 1;
   padding: 4rem 1rem;
+  
 }
 
 .angle-bg::before,
@@ -260,7 +261,7 @@ nav ul {
 .content {
   text-align: center;
   color: white;
-  padding: 50px;
+  
 }
 
 .section {
