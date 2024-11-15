@@ -557,18 +557,10 @@ a {
   
   display: flex;
   justify-content: center;
-  height: 300px;
+  height: 400px;
   
 }
 
-.aboutme {
-  margin-top: 170px;
-  display: flex;
-  justify-content: center;
-  min-height: 150px; /* Adjust as needed */
-  padding: 1rem; /* Add padding to control spacing */
-  background-color: white; /* Ensure background covers full content */
-}
 
 
 .aboutme p{
