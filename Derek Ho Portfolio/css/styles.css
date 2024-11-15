@@ -1335,6 +1335,10 @@ form textarea {
     font-size: 1rem;
   }
 
+  .aboutme{
+    margin-top: 200px;
+  }
+
   .aboutme h2{
     margin-top: 50px;
   }
@@ -1345,7 +1349,7 @@ form textarea {
   }
 
   #section2{
-    height: 1050px;
+    height: 1200px;
   }
 
   #section1{
