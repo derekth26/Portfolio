@@ -622,8 +622,11 @@ a {
 
 }
 #section2{
-  margin-top: 200px;
-  padding: 0 !important;
+  
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  padding-top: 300px;
+  height: 1050px;
   background-image: url('../img/slideshow.jpg');
   background-position: center;
 }
