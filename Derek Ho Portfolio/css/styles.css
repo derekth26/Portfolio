@@ -141,7 +141,7 @@ body {
 
 
 header {
-  background-color: none;
+  background-color: black;
   
 }
 
@@ -304,7 +304,7 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-top: 10px;
+
   
 }
 
