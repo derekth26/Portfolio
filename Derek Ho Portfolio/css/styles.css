@@ -645,6 +645,8 @@ a {
 
 #section4{
   margin-top: 150px;
+  background-image: url('../img/banner.jpg');
+  background-position: bottom;
 }
 
 #section4 h3{
@@ -686,7 +688,7 @@ a {
   
   border: 2px solid white ;
   border-radius: 10px;
-  color: white;
+  color: black;
   padding: 2rem;
   
   display: flex;
