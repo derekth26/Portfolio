@@ -51,6 +51,7 @@ body {
   font-weight: 600;
   font-style: normal;
   font-size: .8rem;
+  text-shadow: 5px 5px 5px rgba(0,0,0,0.5);
   
 }
 
@@ -1047,7 +1048,7 @@ form textarea {
     margin: 0;
     font-size: 1.5rem;
     animation-delay: 0s !important;
-    text-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+   
     
     
     
