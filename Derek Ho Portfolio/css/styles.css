@@ -288,6 +288,7 @@ nav ul li a:hover{
   transform: scale(0);
   opacity: 0;
   display: none;
+  
 }
 
 
@@ -1168,7 +1169,7 @@ form textarea {
 
   nav ul li a {
     margin: 0;
-    font-size: 1.5rem;
+    font-size: 1rem;
     animation-delay: 0s !important;
    
     
