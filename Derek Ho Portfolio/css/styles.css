@@ -1354,6 +1354,14 @@ form textarea {
     height: 1050px;
   }
 
+  #section1{
+    margin-top: -80px;
+  }
+
+  header{
+    height: 1020px;
+  }
+
 }
 
 
