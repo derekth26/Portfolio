@@ -1315,7 +1315,7 @@ form textarea {
 
 @media (min-width:800px){
   .wrapper h1{
-    font-size: 4.5rem;
+    font-size: 4rem;
     margin-top: 50px;
   }
   p{
@@ -1353,10 +1353,6 @@ form textarea {
     margin-top: -80px;
   }
   
-
-  header{
-    height: 1020px;
-  }
 
   .bg-cover{
     height: 280px;
