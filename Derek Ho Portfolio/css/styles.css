@@ -626,8 +626,7 @@ a {
   padding-left: 0 !important;
   padding-top: 220px;
   height: 1000px;
-  background-image: url('../img/banner.jpg');
-  background-position: bottom;
+  
   margin-top:1px ;
 }
 #section3{
@@ -653,8 +652,7 @@ a {
 
 #section4{
   
-  background-image: url('../img/banner.jpg');
-  background-position: bottom;
+  
   height: 1000px;
   padding: 20px;
 }
