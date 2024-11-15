@@ -965,7 +965,7 @@ form {
   max-width: 600px;
   margin: 0 auto; /* Center the form horizontally */
   padding: 20px;
-  background-color: #f9f9f9;
+  background-color: #1c1c1c;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
   font-family: "Kanit", sans-serif;
@@ -979,7 +979,7 @@ form label {
   display: block;
   font-size: 1rem;
   margin-bottom: 10px;
-  color: #1b2735;
+  color: #ffffff;
   font-family: "Kanit", sans-serif;
   font-weight: 600;
   font-style: normal;
@@ -1004,9 +1004,9 @@ form textarea {
 form button {
   width: 100%;
   padding: 12px;
-  background-color: #1b2735;
+  background-color: #ffffff;
   border: 1px solid #1b2735;
-  color: white;
+  color: #1c1c1c;
   font-size: 1rem;
   cursor: pointer;
   border-radius: 5px;
@@ -1014,8 +1014,8 @@ form button {
 }
 
 form button:hover {
-  background-color: white;
-  color: #1b2735;
+  background-color: #1c1c1c;
+  color: white;
 }
 
 /* Textarea */
