@@ -36,18 +36,18 @@
 
 /* Styles for angle-bg (original) */
 .angle-bg {
-  background-color: var(--blue); /* Original background color */
+  background-color: blue; /* Original background color */
 }
 
 .angle-bg::before {
-  background-color: var(--blue);
+  background-color: blue;
   top: 0;
   transform: skewY(2deg);
   transform-origin: 100% 0;
 }
 
 .angle-bg::after {
-  background-color: var(--blue);
+  background-color: blue;
   bottom: 0;
   transform: skewY(-2deg);
   transform-origin: 100%;
