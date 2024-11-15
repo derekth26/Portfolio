@@ -1,6 +1,6 @@
 .angle-bg{
   position: relative;
-  height: 700px;
+ 
   z-index: -1;
   
   
@@ -1176,6 +1176,7 @@ form textarea {
   }
 
   #section1{
+
 
     margin-top: -50px;
 
