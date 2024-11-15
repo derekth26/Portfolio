@@ -1046,6 +1046,7 @@ form textarea {
     margin: 0;
     font-size: 1.5rem;
     animation-delay: 0s !important;
+    text-shadow: 5px 5px 5px rgba(0,0,0,0.5);
     
     
   }
