@@ -55,11 +55,7 @@
   transform-origin: 100%;
 }
 
-body {
-  background-image: url('../img/banner.jpg');
- 
-	
-}
+
 
 @keyframes gradient {
 	0% {
@@ -917,6 +913,7 @@ a {
   margin-top: 150px;
   margin-bottom: 80px;
   padding: 20px;
+  
   
 }
 .contact p {
