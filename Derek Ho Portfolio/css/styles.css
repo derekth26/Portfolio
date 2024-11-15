@@ -1,41 +1,57 @@
-/* Styling for angled-section */
-.angled-section {
+.angle-bg{
   position: relative;
-  background-color: blue; /* Replace with your preferred color */
+  z-index: 1;
   padding: 4rem 1rem;
-  color: #fff; /* Adjust text color for readability */
-  overflow: hidden;
-  z-index: 1; /* Ensure section content stays above pseudo-elements */
 }
 
-/* Top angled edge */
-.angled-section::before {
+.angle-bg::before,
+.angle-bg::after{
   content: "";
+  display: block;
+  height: 50%;
+  left: 0;
+  right: 0;
   position: absolute;
+  z-index: -1;
+}
+
+/* General Styles for angle-bg and its variants */
+.angle-bg{
+  position: relative;
+  z-index: 1;
+  padding: 4rem 1rem;
+}
+
+/* Pseudo-elements for angled backgrounds */
+.angle-bg::before,
+.angle-bg::after {
+  content: "";
+  display: block;
+  height: 50%;
+  left: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+/* Styles for angle-bg (original) */
+.angle-bg {
+  background-color: var(--blue); /* Original background color */
+}
+
+.angle-bg::before {
+  background-color: var(--blue);
   top: 0;
-  left: 0;
-  right: 0;
-  height: 80px; /* Adjust height to control angle size */
-  background-color: inherit; /* Matches section background */
-  transform: skewY(-3deg); /* Adjust angle as needed */
-  transform-origin: top right;
-  z-index: -1;
+  transform: skewY(2deg);
+  transform-origin: 100% 0;
 }
 
-/* Bottom angled edge */
-.angled-section::after {
-  content: "";
-  position: absolute;
+.angle-bg::after {
+  background-color: var(--blue);
   bottom: 0;
-  left: 0;
-  right: 0;
-  height: 80px; /* Adjust height to control angle size */
-  background-color: inherit; /* Matches section background */
-  transform: skewY(3deg); /* Adjust angle as needed */
-  transform-origin: bottom right;
-  z-index: -1;
+  transform: skewY(-2deg);
+  transform-origin: 100%;
 }
-
 
 body {
  
