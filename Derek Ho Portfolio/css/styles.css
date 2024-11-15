@@ -195,7 +195,7 @@ nav ul {
 
 
 .parallax {
-  background-image: url('../img/batman.jpg');
+  background-image: url('../img/banner.jpg');
   height: 100vh; /* Full viewport height */
   background-attachment: fixed;
   background-position: center;
