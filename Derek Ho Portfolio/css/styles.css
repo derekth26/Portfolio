@@ -1345,12 +1345,15 @@ form textarea {
   }
 
   #section2{
+    padding-top: 250px;
     height: 1020px;
+    margin-top: -10px;
   }
 
   #section1{
     margin-top: -80px;
   }
+  
 
   header{
     height: 1020px;
