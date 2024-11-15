@@ -55,6 +55,10 @@
   transform-origin: 100%;
 }
 
+.contact .angle-bg::after {
+  display: none;
+}
+
 
 
 @keyframes gradient {
