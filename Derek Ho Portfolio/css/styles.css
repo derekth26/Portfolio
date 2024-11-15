@@ -632,9 +632,8 @@ a {
 }
 #section3{
   padding-top: 100px;
-  
-  background-image: url('../img/banner.jpg');
-  background-position: center;
+  background-color: white;
+
 }
 #section3 h3 {
   
