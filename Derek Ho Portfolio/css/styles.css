@@ -78,6 +78,7 @@
 .intro{
   
   padding: 5rem;
+  margin-top: 50px;
   
   
   
@@ -349,7 +350,7 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-top: 50px;
+  
   
   
 
