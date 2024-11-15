@@ -632,7 +632,7 @@ a {
 }
 #section3{
   padding-top: 100px;
-  background-color: black ;
+  background-color: white;
 
 }
 #section3 h3 {
@@ -686,9 +686,9 @@ a {
 .projects .fade, .case .fade{
   
   
-  border: 2px solid white ;
+  border: 2px solid #1c1c1c;
   border-radius: 10px;
-  color: white;
+  color: #1c1c1c;
   padding: 2rem;
   
   display: flex;
@@ -896,8 +896,8 @@ a {
 
 
 span{
-  color: black;
-  background-color: white;
+  color: white;
+  background-color: black;
   font-size: 1.1rem;
   border-radius: 5px;
   padding: 2px;
