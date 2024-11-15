@@ -673,7 +673,13 @@ a {
 #section5{
 
   background-color: white;
+  padding-top: 10px;
+  height: 800px;
 
+}
+
+#section5 h3{
+  color: #1c1c1c;
 }
 .volunteer{
   display: flex;
