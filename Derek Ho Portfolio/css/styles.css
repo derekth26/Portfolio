@@ -1,6 +1,6 @@
 .angle-bg{
   position: relative;
-  top: 0px;
+  top: 50px;
   z-index: -1;
   
   
@@ -354,6 +354,7 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  height: 100vh;
   
 
   
