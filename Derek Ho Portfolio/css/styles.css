@@ -254,6 +254,7 @@ main {
   animation: 
     typing 2.2s steps(30, end) 3s forwards !important ; /* Typing effect with delay */
   font-size: 2.5rem;
+  text-shadow: 5px 5px 5px rgba(0,0,0,0.5);
 }
 
 @keyframes typing {
@@ -333,6 +334,7 @@ h5{
 .fade-in h3 {
   font-size: 2rem;
   margin-bottom: 1rem;
+  text-shadow: 5px 5px 5px rgba(0,0,0,0.5);
 }
 
 .fade-in p {
