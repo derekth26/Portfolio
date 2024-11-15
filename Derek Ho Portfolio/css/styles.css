@@ -630,7 +630,12 @@ a {
   background-image: url('../img/banner.jpg');
   background-position: center;
 }
-
+#section3{
+  padding-top: 100px;
+  
+  background-image: url('../img/banner.jpg');
+  background-position: center;
+}
 #section3 h3 {
   
   font-size: 2.5rem;
@@ -1183,6 +1188,7 @@ form textarea {
 
   #section3{
     margin-top: -60px;
+    
 
   }
 
