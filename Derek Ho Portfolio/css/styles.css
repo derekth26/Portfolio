@@ -632,7 +632,7 @@ a {
 }
 #section3{
   padding-top: 100px;
-  background-color: white;
+  background-color: black ;
 
 }
 #section3 h3 {
@@ -688,7 +688,7 @@ a {
   
   border: 2px solid white ;
   border-radius: 10px;
-  color: black;
+  color: white;
   padding: 2rem;
   
   display: flex;
