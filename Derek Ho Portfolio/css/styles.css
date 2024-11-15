@@ -1,4 +1,55 @@
+section, .scrim {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
 
+section:not(.angle-bg), .scrim {
+  min-height: calc(100vh + 3rem);
+}
+
+.intro {
+  text-align: center;
+}
+
+/* Styles for angle-bg (original) */
+.angle-bg {
+  background-color: var(--blue); /* Original background color */
+  position: relative;
+  z-index: 1;
+  padding: 4rem 1rem;
+  overflow: hidden; /* Prevent overflow from angled backgrounds */
+}
+
+.angle-bg::before,
+.angle-bg::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 50%; /* Adjust as needed */
+  z-index: -1;
+}
+
+/* Specific skew and origin for original .angle-bg */
+.angle-bg::before {
+  background-color: var(--blue);
+  top: 0;
+  transform: skewY(2deg);
+  transform-origin: 100% 0;
+}
+
+.angle-bg::after {
+  background-color: var(--blue);
+  bottom: 0;
+  transform: skewY(-2deg);
+  transform-origin: 100%;
+}
+
+/* Styles for angle-bg2 */
+.angle-bg2 {
+  background-color: var(--light-blue);
+}
 body {
 	
 }
