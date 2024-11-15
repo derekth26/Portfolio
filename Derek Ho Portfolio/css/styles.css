@@ -557,6 +557,7 @@ a {
   margin-top: 170px;
   display: flex;
   justify-content: center;
+  height: 200px;
 }
 
 .aboutme p{
