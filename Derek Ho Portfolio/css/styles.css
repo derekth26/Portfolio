@@ -1272,6 +1272,14 @@ form textarea {
     font-size: 1rem;
   }
 
+  .fade-in h3{
+    font-size: 1.5rem;
+
+  }
+  .fade-in p{
+    font-size: 1.5rem;
+  }
+
   .introbutton a{
     font-size: 1rem;
   }
