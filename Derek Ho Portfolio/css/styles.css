@@ -204,6 +204,7 @@ nav ul li a {
   animation-fill-mode: forwards !important;
   animation-delay: 5s !important;
   animation-duration: 1s !important;
+  text-shadow: 5px 5px 5px rgba(0,0,0,0.5);
 }
 
 nav ul li a:last-child {
