@@ -258,17 +258,8 @@ nav ul {
   background-size: cover;
 }
 
-.content {
-  text-align: center;
-  color: white;
-  
-}
 
-.section {
-  height: 100vh;
-  background-color: lightgray;
-  padding: 20px;
-}
+
 
 
 nav ul li a {
