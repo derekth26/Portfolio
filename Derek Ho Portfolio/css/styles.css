@@ -669,6 +669,12 @@ a {
 
 
 }
+
+#section5{
+
+  background-color: white;
+
+}
 .volunteer{
   display: flex;
   gap:50px;
