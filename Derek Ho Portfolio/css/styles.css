@@ -654,13 +654,17 @@ a {
 }
 
 #section4{
-  margin-top: 150px;
+  margin-top: 0;
   background-image: url('../img/banner.jpg');
   background-position: bottom;
+  height: 1050px;
 }
 
 #section4 h3{
   font-size: 2.5rem;
+  text-align: center;
+  padding-top: 200px;
+  padding-bottom: 150px;
 }
 .volunteer{
   display: flex;
@@ -1318,6 +1322,10 @@ form textarea {
 
   .introbutton a{
     font-size: 1rem;
+  }
+
+  .aboutme h2{
+    margin-top: 50px;
   }
 
 }
