@@ -55,7 +55,9 @@
   transform-origin: 100%;
 }
 
-
+#section5.angle-bg::after {
+  display: none; /* Remove the angled bottom edge */
+}
 
 
 
