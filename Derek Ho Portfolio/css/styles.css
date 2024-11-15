@@ -195,15 +195,6 @@ body {
 }
 
 
-header {
-  height: 800px;
- 
-  
-  
-  
-  
-  
-}
 
 a {
   text-decoration: none;
@@ -329,7 +320,7 @@ main {
     typing 2.2s steps(30, end) 3s forwards !important ; /* Typing effect with delay */
   font-size: 2rem;
   text-shadow: 5px 5px 5px rgba(0,0,0,0.5);
-  margin-top: 50px;
+  margin-top: 20px;
 
 }
 
@@ -618,9 +609,7 @@ a {
 .fade-visible img {
   opacity: 1; /* Fully visible when scrolled into view */
 }
-#section1{
-  margin-top: -100px;
-}
+
 
 #section1 h2{
   margin-bottom: -100px;
@@ -631,7 +620,7 @@ a {
   padding-right: 0 !important;
   padding-left: 0 !important;
   padding-top: 150px;
-  height: 800px;
+  height: 750px;
   background-image: url('../img/banner.jpg');
   background-position: center;
   margin-top:5px ;
