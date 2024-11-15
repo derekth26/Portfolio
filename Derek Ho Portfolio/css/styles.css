@@ -464,7 +464,7 @@ a {
 
 .aboutme h2 {
   text-align: center;
-  font-size: 2rem;
+  font-size: 2.5rem;
  padding-bottom: 2rem;
   
   
@@ -1187,7 +1187,7 @@ form textarea {
   }
 
   .introbutton a{
-    font-size: .9rem;
+    font-size: 1rem;
   }
 
 }
