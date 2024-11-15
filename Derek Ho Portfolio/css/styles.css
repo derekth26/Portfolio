@@ -1315,11 +1315,22 @@ form textarea {
  
 }
 
-
-
 @media (min-width:800px){
+ .wrapper h1{
+  font-size: 2rem;
+
+ }
+ .fade-in h3{
+  font-size: 1rem;
+ }
+ .introbutton{
+  font-size: .8rem;
+ }
+}
+
+@media (min-width:1200px){
   .wrapper h1{
-    font-size: 2rem;
+    font-size: 4.5rem;
     
   }
 
@@ -1330,7 +1341,7 @@ form textarea {
 
 
   .fade-in h3{
-    font-size: 1rem;
+    font-size: 2rem;
 
   }
   .fade-in p{
