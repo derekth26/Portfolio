@@ -1,5 +1,41 @@
+/* Section with angled background */
+#section1.angle-bg {
+  position: relative;
+  z-index: 1;
+  padding: 4rem 1rem;
+  background-color: blue; /* Replace with your preferred color */
+  overflow: hidden; /* Ensures no overflow from skewed background */
+}
+
+/* Pseudo-elements to create the angled effect */
+#section1.angle-bg::before,
+#section1.angle-bg::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 50%; /* Adjust as needed */
+  z-index: -1;
+}
+
+/* Top angle */
+#section1.angle-bg::before {
+  background-color: blue; /* Match section background color */
+  top: 0;
+  transform: skewY(2deg); /* Adjust angle as desired */
+  transform-origin: 100% 0;
+}
+
+/* Bottom angle */
+#section1.angle-bg::after {
+  background-color: blue; /* Match section background color */
+  bottom: 0;
+  transform: skewY(-2deg); /* Adjust angle as desired */
+  transform-origin: 100%;
+}
 
 body {
+  background-image: url(../img/banner.jpg);
 	
 }
 
