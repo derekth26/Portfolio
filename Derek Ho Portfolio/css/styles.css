@@ -1,6 +1,6 @@
 
 body {
-	background: linear-gradient(90deg, hsla(213, 77%, 14%, 1) 0%, hsla(202, 27%, 45%, 1) 100%);
+	background-image: url('../img/banner.jpg');
 	background-size: 400% 400%;
 	animation: gradient 15s ease infinite !important;
 	height: 100%;
@@ -141,7 +141,7 @@ body {
 
 
 header {
-  background-color: black;
+  background: transparent;
   
 }
 
