@@ -1328,6 +1328,14 @@ form textarea {
   p{
     font-size: 1rem;
   }
+  .intro{
+    margin-top: 20px;
+  }
+
+  #section1
+  {
+    height: 700px;
+  }
 
 
 
