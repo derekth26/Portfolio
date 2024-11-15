@@ -5,6 +5,7 @@
   padding: 4rem 1rem;
   color: #fff; /* Adjust text color for readability */
   overflow: hidden;
+  z-index: 1; /* Ensure section content stays above pseudo-elements */
 }
 
 /* Top angled edge */
@@ -14,10 +15,10 @@
   top: 0;
   left: 0;
   right: 0;
-  height: 100px; /* Adjust height to control angle size */
-  background-color: blue;
+  height: 80px; /* Adjust height to control angle size */
+  background-color: inherit; /* Matches section background */
   transform: skewY(-3deg); /* Adjust angle as needed */
-  transform-origin: 100% 0;
+  transform-origin: top right;
   z-index: -1;
 }
 
@@ -28,10 +29,10 @@
   bottom: 0;
   left: 0;
   right: 0;
-  height: 100px; /* Adjust height to control angle size */
-  background-color: blue;
+  height: 80px; /* Adjust height to control angle size */
+  background-color: inherit; /* Matches section background */
   transform: skewY(3deg); /* Adjust angle as needed */
-  transform-origin: 100%;
+  transform-origin: bottom right;
   z-index: -1;
 }
 
