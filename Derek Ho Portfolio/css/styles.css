@@ -1328,7 +1328,7 @@ form textarea {
  }
 }
 
-@media (min-width:1200px){
+@media (min-width:1100px){
   .wrapper h1{
     font-size: 4.5rem;
     
