@@ -612,7 +612,7 @@ a {
 }
 
 #section1{
-  height: 640px;
+  height: 800px;
 }
 #section1 h2{
   margin-bottom: -100px;
@@ -1314,6 +1314,7 @@ form textarea {
   
  
 }
+
 
 
 @media (min-width:800px){
