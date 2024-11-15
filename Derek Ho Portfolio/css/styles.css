@@ -634,7 +634,7 @@ a {
 }
 #section3{
   
-  padding-top: 100px;
+  
   background-color: white;
 
 }
@@ -654,7 +654,7 @@ a {
 }
 
 #section4{
-  margin-top: 0;
+  
   background-image: url('../img/banner.jpg');
   background-position: bottom;
   height: 1050px;
@@ -663,7 +663,7 @@ a {
 #section4 h3{
   font-size: 2.5rem;
   text-align: center;
-  padding-top: 200px;
+  
   padding-bottom: 150px;
 }
 .volunteer{
