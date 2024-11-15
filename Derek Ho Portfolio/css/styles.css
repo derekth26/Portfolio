@@ -194,6 +194,27 @@ nav ul {
 }
 
 
+.parallax {
+  background-image: url('../img/batman.jpg');
+  height: 100vh; /* Full viewport height */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.content {
+  text-align: center;
+  color: white;
+  padding: 50px;
+}
+
+.section {
+  height: 100vh;
+  background-color: lightgray;
+  padding: 20px;
+}
+
 
 nav ul li a {
   padding: 1rem 0;
