@@ -59,6 +59,11 @@
   display: none; /* Remove the angled bottom edge */
 }
 
+.parallax {
+  background-image: url('../img/banner.jpg');
+
+}
+
 
 
 @keyframes gradient {
