@@ -247,10 +247,10 @@ nav ul {
 
 
 .parallax {
-  background-image: url('../img/banner1.jpg');
+  background-image: url('../img/banner2.jpg');
   height: 100vh; /* Full viewport height */
   background-attachment: fixed;
-  background-position: top;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
