@@ -516,13 +516,13 @@ a {
 
 .github img{
   width: 55px;
-  height: 55px;
+  height: 50px;
    
 }
 
 .linkedin img{
   width: 55px;
-  height: 55px;
+  height: 50px;
 }
 .github, .resume, .linkedin {
   -webkit-mask-image: linear-gradient(45deg,#000 25%,rgba(0,0,0,.2) 50%,#000 75%);
