@@ -412,6 +412,7 @@ h5{
 .fade-in p {
   margin-top: 5px;
   font-size: 1rem;
+  text-shadow: 5px 5px 5px rgba(0,0,0,0.5);
 }
 
 .hi{
