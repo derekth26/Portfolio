@@ -246,15 +246,6 @@ nav ul {
 }
 
 
-.parallax {
-  background-image: url('../img/banner.jpg');
-  height: 100vh; /* Full viewport height */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 
 
 
@@ -1374,6 +1365,15 @@ form textarea {
   .bg-cover{
     height: 280px;
     width: 280px;
+  }
+
+  .parallax {
+    background-image: url('../img/banner.jpg');
+    height: 100vh; /* Full viewport height */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   
 
