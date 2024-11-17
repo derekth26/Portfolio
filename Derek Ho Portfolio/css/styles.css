@@ -724,13 +724,16 @@ a {
   
 }
 
-.modal-content .introbutton a{
-  color: white;
-}
+
 
 .modal .introbutton {
   display: flex;
   justify-content: center;
+  
+}
+
+.modal .introbutton a{
+  color: white;
 }
 
 .box{
