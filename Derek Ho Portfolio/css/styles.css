@@ -458,8 +458,8 @@ a {
 
 .links {
   display: flex;
-  justify-content: center;
-  gap: 15px;
+  justify-content: space-between;
+ 
   padding-top: 30px;
   padding-bottom: 10px;
 }
