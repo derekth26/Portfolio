@@ -459,6 +459,7 @@ a {
 .links {
   display: flex;
   justify-content: center;
+  gap: 15px;
   padding-top: 30px;
   padding-bottom: 10px;
 }
