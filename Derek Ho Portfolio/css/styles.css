@@ -454,21 +454,11 @@ a {
  height: 45px;
 }
 
-.links{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-  
- 
- 
-}
+
 
 .links {
   display: flex;
   justify-content: center;
-  align-items: center;
-  gap: 10px;
   padding-top: 30px;
   padding-bottom: 10px;
 }
