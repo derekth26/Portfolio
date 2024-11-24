@@ -1050,9 +1050,10 @@ form textarea {
 }
 
 .projects .fade, .case .fade {
-  flex: 0 1 calc(33.333% - 25px); /* Take up 33.333% of the width minus the gap */
+  flex: 0 1 calc(25% - 25px); /* Take up 25% of the width minus the gap */
   box-sizing: border-box;
 }
+
 
 /* Optional: responsive design for smaller screens */
 @media (max-width: 768px) {
