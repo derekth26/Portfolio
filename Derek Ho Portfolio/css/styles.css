@@ -112,7 +112,7 @@
   font-weight: 600;
   font-style: normal;
   font-size: .8rem;
-  text-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+  
   
 }
 
@@ -264,7 +264,7 @@ nav ul li a {
   animation-fill-mode: forwards !important;
   animation-delay: 5s !important;
   animation-duration: 1s !important;
-  text-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+  
 }
 
 nav ul li a:last-child {
@@ -317,7 +317,7 @@ main {
   animation: 
     typing 2.2s steps(30, end) 3s forwards !important ; /* Typing effect with delay */
   font-size: 2rem;
-  text-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+  
   margin-top: 20px;
 
 }
@@ -378,7 +378,7 @@ h5{
   font-style: normal;
   font-size: 1rem;
   padding-bottom: 2rem;
-  text-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+  
 
 }
 
@@ -407,13 +407,13 @@ h5{
   font-size: 1rem;
   margin-top: 1rem;
   margin-bottom: 1rem;
-  text-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+  
 }
 
 .fade-in p {
   margin-top: 5px;
   font-size: 1rem;
-  text-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+  
 }
 
 .hi{
