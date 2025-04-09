@@ -302,6 +302,10 @@ main {
   max-width: 100%;
 }
 
+.mobile{
+  color: #010101;
+}
+
 .wrapper h1 {
   color: white;
   font-family: "Kanit", sans-serif;
