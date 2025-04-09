@@ -304,6 +304,8 @@ main {
 
 .mobile{
   color: #010101;
+  font-size: 1.2rem;
+  font-weight: bolder;
 }
 
 .wrapper h1 {
