@@ -538,7 +538,7 @@ a {
 
 .aboutme h2 {
   text-align: center;
-  font-size: 3rem;
+  font-size: 2.5rem;
  padding-bottom: 2rem;
  color: black;
  
@@ -558,6 +558,7 @@ a {
 .aboutme p{
   margin-top: -60px;
   color: black;
+  font: 4rem;
 }
 
 
